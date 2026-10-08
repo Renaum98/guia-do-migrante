@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="converter.meta.title">Conversor de moeda | Bem-vindo ao Brasil</title>
+  <meta name="description" content="Converta reais para a moeda do seu país e veja quanto você está gastando, com a cotação oficial do Banco Central do Brasil." data-i18n-attr="content:converter.meta.desc">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1b5a36">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'%3E%3Cpath d='M14 2.4a3.2 3.2 0 0 1 4 0l11.6 7.2a3 3 0 0 1 0 4.8L18 21.6a3.2 3.2 0 0 1-4 0L2.4 14.4a3 3 0 0 1 0-4.8z' fill='%23f2c230'/%3E%3Ccircle cx='16' cy='12' r='5' fill='%231f3f8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/converter.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo" data-i18n="common.skip">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 28" aria-hidden="true" focusable="false"><defs><filter id="mark-outline" x="-15%" y="-15%" width="130%" height="130%"><feMorphology in="SourceAlpha" operator="dilate" radius="0.6" result="grow"/><feFlood class="mark-ink"/><feComposite in2="grow" operator="in" result="ink"/><feMerge><feMergeNode in="ink"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#mark-outline)"><g class="mark-g"><path class="mark-a" fill-rule="evenodd" d="M17.6 3.3 Q20 1.8 22.4 3.3 L35.4 11.7 Q38.3 14 35.4 16.3 L22.4 24.7 Q20 26.2 17.6 24.7 L4.6 16.3 Q1.7 14 4.6 11.7 Z"/><path class="mark-b" fill-rule="evenodd" d="M14.40 14.00 C14.40 10.91 16.91 8.40 20.00 8.40 C23.09 8.40 25.60 10.91 25.60 14.00 C25.60 17.09 23.09 19.60 20.00 19.60 C16.91 19.60 14.40 17.09 14.40 14.00 Z"/></g></g></svg><span data-i18n="site.name">Bem-vindo ao Brasil</span></a>
+      <div class="header-tools">
+        <div class="lang-field">
+          <label class="visually-hidden" for="lang-select" data-i18n="common.language">Idioma</label>
+          <select id="lang-select" data-lang-select><option value="pt" lang="pt" dir="ltr" selected>Português</option><option value="es" lang="es" dir="ltr">Español</option><option value="en" lang="en" dir="ltr">English</option><option value="fr" lang="fr" dir="ltr">Français</option><option value="ar" lang="ar" dir="rtl">العربية</option><option value="ht" lang="ht" dir="ltr">Kreyòl ayisyen</option></select>
+        </div>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span data-i18n="common.menu">Menu</span></button>
+      </div>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Menu principal" data-i18n-attr="aria-label:common.mainMenu">
+      <div class="container">
+        <ul>
+          <li><a href="index.html"><span data-i18n="nav.home">Início</span></a></li>
+          <li><a href="documentos.html"><span data-i18n="nav.docs">Documentos</span></a></li>
+          <li><a href="trabalho.html"><span data-i18n="nav.work">Trabalho</span></a></li>
+          <li><a href="transporte.html"><span data-i18n="nav.transport">Transporte</span></a></li>
+          <li><a href="saude-moradia.html"><span data-i18n="nav.life">Saúde, moradia e educação</span></a></li>
+          <li><a href="conversor.html" aria-current="page"><span data-i18n="nav.converter">Conversor</span></a></li>
+          <li><a href="ajuda.html"><span data-i18n="nav.help">Onde buscar ajuda</span></a></li>
+          <li><a href="sobre.html"><span data-i18n="nav.about">Sobre o projeto</span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo" tabindex="-1">
+    <div class="container">
+      <h1 class="page-title"><span data-i18n="converter.title">Conversor de moeda</span></h1>
+      <p class="lead" data-i18n="converter.lead">Veja quanto um preço em reais vale na moeda do seu país. Use para comparar preços e planejar seus gastos.</p>
+      <div class="notice" role="note"><p data-i18n="common.notice">Informação de orientação. Confirme nos órgãos oficiais, pois regras, valores e horários podem mudar.</p></div>
+
+      <section class="card converter" aria-labelledby="conv-h">
+        <h2 id="conv-h" data-i18n="converter.form.title">Converter valores</h2>
+        <form class="converter-form" data-converter data-tpl-rate="{from} = {to}" data-tpl-date="Cotação de referência do Banco Central do Brasil de {date}." data-tpl-error="Não foi possível carregar as cotações. Tente novamente mais tarde." data-i18n-attr="data-tpl-rate:converter.rate;data-tpl-date:converter.date;data-tpl-error:converter.error">
+          <div class="field">
+            <label for="conv-amount" data-i18n="converter.amount">Valor</label>
+            <input id="conv-amount" type="text" inputmode="decimal" autocomplete="off" value="100">
+          </div>
+          <div class="field">
+            <label for="conv-currency" data-i18n="converter.currency">Sua moeda</label>
+            <select id="conv-currency"></select>
+          </div>
+          <fieldset class="direction">
+            <legend data-i18n="converter.direction">Direção</legend>
+            <label class="direction-option"><input type="radio" name="conv-direction" value="from-brl" checked><span data-i18n="converter.fromBrl">De real para a minha moeda</span></label>
+            <label class="direction-option"><input type="radio" name="conv-direction" value="to-brl"><span data-i18n="converter.toBrl">Da minha moeda para real</span></label>
+          </fieldset>
+          <div class="converter-output">
+            <p class="converter-label" data-i18n="converter.result">Resultado</p>
+            <output id="conv-result" class="converter-result" for="conv-amount conv-currency" aria-live="polite">–</output>
+            <p class="converter-rate" data-conv-rate></p>
+            <p class="converter-date" data-conv-date></p>
+          </div>
+        </form>
+      </section>
+
+      <section class="card" id="precos" aria-labelledby="prices-h">
+        <h2 id="prices-h" data-i18n="prices.title">Quanto custam as coisas no Brasil</h2>
+        <p data-i18n="prices.intro">Preços médios para você ter noção de quanto vale o dinheiro. Se alguém cobrar muito mais do que isso, desconfie e compare em outro lugar.</p>
+        <h3 data-i18n="prices.refs.title">Valores de referência</h3>
+        <div class="table-wrap">
+          <table class="prices">
+            <thead>
+              <tr><th scope="col" data-i18n="prices.col.item">Item</th><th scope="col" class="num" data-i18n="prices.col.brl">Em reais</th><th scope="col" class="num"><span data-i18n="prices.col.conv">Na sua moeda</span> <span data-conv-code></span></th></tr>
+            </thead>
+            <tbody>
+              <tr><td data-i18n="prices.refs.wage">Salário mínimo nacional (por mês)</td><td class="num" data-brl="1621.00">R$ 1.621,00</td><td class="num" data-brl-conv="1621.00">–</td></tr>
+              <tr><td data-i18n="prices.refs.basket">Cesta básica completa em São Paulo (39 produtos de alimentação, limpeza e higiene)</td><td class="num" data-brl="1338.03">R$ 1.338,03</td><td class="num" data-brl-conv="1338.03">–</td></tr>
+              <tr><td data-i18n="prices.refs.gas">Botijão de gás de cozinha (13 kg), capital paulista</td><td class="num" data-brl="119.66">R$ 119,66</td><td class="num" data-brl-conv="119.66">–</td></tr>
+              <tr><td data-i18n="prices.refs.bus">Passagem de ônibus municipal em São Paulo</td><td class="num" data-brl="5.30">R$ 5,30</td><td class="num" data-brl-conv="5.30">–</td></tr>
+              <tr><td data-i18n="prices.refs.metro">Passagem de metrô ou trem em São Paulo</td><td class="num" data-brl="5.40">R$ 5,40</td><td class="num" data-brl-conv="5.40">–</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 data-i18n="prices.market.title">No supermercado</h3>
+        <p class="table-note" data-i18n="prices.market.note">Preços médios na cidade de São Paulo, coletados pelo Procon-SP em 31 de agosto de 2026. Em outras cidades e lojas, os preços podem ser diferentes.</p>
+        <div class="table-wrap">
+          <table class="prices">
+            <thead>
+              <tr><th scope="col" data-i18n="prices.col.item">Item</th><th scope="col" class="num" data-i18n="prices.col.brl">Em reais</th><th scope="col" class="num"><span data-i18n="prices.col.conv">Na sua moeda</span> <span data-conv-code></span></th></tr>
+            </thead>
+            <tbody>
+              <tr><td data-i18n="prices.items.rice">Arroz (pacote de 5 kg)</td><td class="num" data-brl="20.59">R$ 20,59</td><td class="num" data-brl-conv="20.59">–</td></tr>
+              <tr><td data-i18n="prices.items.beans">Feijão carioca (1 kg)</td><td class="num" data-brl="8.63">R$ 8,63</td><td class="num" data-brl-conv="8.63">–</td></tr>
+              <tr><td data-i18n="prices.items.sugar">Açúcar refinado (pacote de 5 kg)</td><td class="num" data-brl="17.23">R$ 17,23</td><td class="num" data-brl-conv="17.23">–</td></tr>
+              <tr><td data-i18n="prices.items.coffee">Café em pó (500 g)</td><td class="num" data-brl="24.86">R$ 24,86</td><td class="num" data-brl-conv="24.86">–</td></tr>
+              <tr><td data-i18n="prices.items.oil">Óleo de soja (900 ml)</td><td class="num" data-brl="7.55">R$ 7,55</td><td class="num" data-brl-conv="7.55">–</td></tr>
+              <tr><td data-i18n="prices.items.milk">Leite longa vida (1 litro)</td><td class="num" data-brl="5.72">R$ 5,72</td><td class="num" data-brl-conv="5.72">–</td></tr>
+              <tr><td data-i18n="prices.items.eggs">Ovos brancos (1 dúzia)</td><td class="num" data-brl="10.73">R$ 10,73</td><td class="num" data-brl-conv="10.73">–</td></tr>
+              <tr><td data-i18n="prices.items.bread">Pão francês (1 kg)</td><td class="num" data-brl="17.98">R$ 17,98</td><td class="num" data-brl-conv="17.98">–</td></tr>
+              <tr><td data-i18n="prices.items.pasta">Macarrão (500 g)</td><td class="num" data-brl="3.39">R$ 3,39</td><td class="num" data-brl-conv="3.39">–</td></tr>
+              <tr><td data-i18n="prices.items.chicken">Frango inteiro (1 kg)</td><td class="num" data-brl="11.33">R$ 11,33</td><td class="num" data-brl-conv="11.33">–</td></tr>
+              <tr><td data-i18n="prices.items.beef">Carne de segunda sem osso (1 kg)</td><td class="num" data-brl="33.77">R$ 33,77</td><td class="num" data-brl-conv="33.77">–</td></tr>
+              <tr><td data-i18n="prices.items.potato">Batata (1 kg)</td><td class="num" data-brl="6.41">R$ 6,41</td><td class="num" data-brl-conv="6.41">–</td></tr>
+              <tr><td data-i18n="prices.items.onion">Cebola (1 kg)</td><td class="num" data-brl="7.18">R$ 7,18</td><td class="num" data-brl-conv="7.18">–</td></tr>
+              <tr><td data-i18n="prices.items.detergent">Detergente (500 ml)</td><td class="num" data-brl="2.38">R$ 2,38</td><td class="num" data-brl-conv="2.38">–</td></tr>
+              <tr><td data-i18n="prices.items.powder">Sabão em pó (1 kg)</td><td class="num" data-brl="11.38">R$ 11,38</td><td class="num" data-brl-conv="11.38">–</td></tr>
+              <tr><td data-i18n="prices.items.paper">Papel higiênico (4 rolos)</td><td class="num" data-brl="6.65">R$ 6,65</td><td class="num" data-brl-conv="6.65">–</td></tr>
+              <tr><td data-i18n="prices.items.toothpaste">Creme dental (90 g)</td><td class="num" data-brl="5.23">R$ 5,23</td><td class="num" data-brl-conv="5.23">–</td></tr>
+              <tr><td data-i18n="prices.items.soap">Sabonete (90 g)</td><td class="num" data-brl="2.02">R$ 2,02</td><td class="num" data-brl-conv="2.02">–</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card" id="gratis" aria-labelledby="free-h">
+        <h2 id="free-h" data-i18n="prices.free.title">Serviços que são de graça</h2>
+        <p data-i18n="prices.free.intro">Ninguém pode cobrar por estes serviços públicos. Se pedirem dinheiro, é golpe.</p>
+        <ul>
+          <li><a href="documentos.html#refugio" data-i18n="prices.free.refuge">Pedido de refúgio</a></li>
+          <li><a href="documentos.html#cpf" data-i18n="prices.free.cpf">CPF feito na Receita Federal (nos Correios, bancos e cartórios a taxa oficial é de R$ 7,00)</a></li>
+          <li><a href="documentos.html#ctps" data-i18n="prices.free.ctps">Carteira de Trabalho Digital</a></li>
+          <li><a href="documentos.html#sus" data-i18n="prices.free.sus">Cartão SUS e atendimento no SUS</a></li>
+          <li><a href="documentos.html#cadunico" data-i18n="prices.free.cad">Cadastro no CadÚnico</a></li>
+          <li><a href="saude-moradia.html#escola" data-i18n="prices.free.school">Matrícula na escola pública</a></li>
+          <li><a href="saude-moradia.html#portugues" data-i18n="prices.free.portuguese">Aulas de português do Portas Abertas</a></li>
+          <li><a href="ajuda.html" data-i18n="prices.free.help">Atendimento no CRAI e na Defensoria Pública</a></li>
+        </ul>
+        <p class="note" data-i18n="prices.free.crnm">A carteira de registro migratório (CRNM) tem taxa oficial de R$ 204,77, paga só por boleto do governo (GRU). Quem não pode pagar pode pedir isenção.</p>
+      </section>
+
+      <section class="card" id="golpes" aria-labelledby="scam-h">
+        <h2 id="scam-h" data-i18n="prices.scam.title">Sinais de golpe</h2>
+        <ul>
+          <li data-i18n="prices.scam.1">Pedem dinheiro para conseguir emprego, vaga em abrigo ou documento.</li>
+          <li data-i18n="prices.scam.2">Pedem depósito ou Pix antes de você ver o imóvel para alugar.</li>
+          <li data-i18n="prices.scam.3">Oferecem trocar dinheiro na rua com uma cotação muito melhor do que a do banco.</li>
+          <li data-i18n="prices.scam.4">Querem ficar com o seu passaporte ou com os seus documentos.</li>
+          <li data-i18n="prices.scam.5">Pressionam para você pagar na hora, sem tempo para pensar.</li>
+        </ul>
+        <h3 data-i18n="prices.scam.report">Onde denunciar</h3>
+        <ul>
+          <li data-i18n="prices.scam.r1">Problemas com compras, preços e serviços: Procon-SP.</li>
+          <li data-i18n="prices.scam.r2">Golpe ou crime: ligue 190 ou registre um boletim de ocorrência na Delegacia Eletrônica.</li>
+          <li data-i18n="prices.scam.r3">Trabalho escravo ou tráfico de pessoas: ligue 100.</li>
+        </ul>
+        <p class="links">
+          <a class="btn" href="https://www.procon.sp.gov.br/"><span data-i18n="prices.scam.procon">Procon-SP</span></a>
+          <a class="btn btn-secondary" href="https://www.delegaciaeletronica.policiacivil.sp.gov.br/"><span data-i18n="prices.scam.police">Delegacia Eletrônica</span></a>
+        </p>
+      </section>
+
+      <section class="card" aria-labelledby="tips-h">
+        <h2 id="tips-h" data-i18n="converter.tips.title">Antes de trocar ou enviar dinheiro</h2>
+        <ul>
+          <li data-i18n="converter.tips.1">O valor mostrado é uma referência, calculado com a cotação oficial do Banco Central do Brasil.</li>
+          <li data-i18n="converter.tips.2">Casas de câmbio, bancos e aplicativos de envio de dinheiro cobram taxas. O valor que você recebe pode ser menor.</li>
+          <li data-i18n="converter.tips.3">Compare o valor final em mais de um lugar antes de trocar ou enviar dinheiro.</li>
+          <li data-i18n="converter.tips.4">Algumas moedas mudam de valor muito rápido. Confira a data da cotação.</li>
+        </ul>
+      </section>
+
+      <section class="sources" aria-labelledby="src-h">
+        <h2 id="src-h" data-i18n="common.sources">Fontes oficiais</h2>
+        <p data-i18n="common.consulted">Consultado em 8 de outubro de 2026.</p>
+        <ul>
+          <li><a href="https://www.bcb.gov.br/conversao" data-i18n="converter.src.bcb">Banco Central do Brasil: Conversor de moedas</a></li>
+          <li><a href="https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes" data-i18n="converter.src.history">Banco Central do Brasil: Cotações e boletins</a></li>
+          <li><a href="https://www.procon.sp.gov.br/wp-content/uploads/2026/09/CB-agosto-2026-com-comparativo-anual.pdf" data-i18n="converter.src.procon">Procon-SP e Dieese: Pesquisa da cesta básica, agosto de 2026</a></li>
+          <li><a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12797.htm" data-i18n="converter.src.wage">Decreto nº 12.797/2025: salário mínimo de 2026</a></li>
+          <li><a href="https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-40.pdf" data-i18n="converter.src.anp">ANP: Síntese semanal de preços dos combustíveis, 27/09 a 03/10/2026</a></li>
+          <li><a href="https://www.sptrans.com.br/tarifas/" data-i18n="transport.src.tarifas">SPTrans: Tarifas</a></li>
+          <li><a href="https://www.gov.br/pt-br/servicos/registrar-se-como-estrangeiro-no-brasil" data-i18n="docs.src.rnm">gov.br / Polícia Federal: Registrar-se como estrangeiro no Brasil</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footer.translations">As traduções para outros idiomas estão em revisão por falantes nativos.</p>
+      <p><span data-i18n="footer.updated">Última atualização:</span> <time datetime="2026-10-08" data-i18n="footer.updatedDate">8 de outubro de 2026</time></p>
+      <p data-i18n="footer.project">Projeto de extensão universitária de Renan Matos Barbosa, FAM - Faculdade das Américas.</p>
+      <ul class="footer-links">
+        <li><a href="sobre.html" data-i18n="nav.about">Sobre o projeto</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

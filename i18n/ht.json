@@ -1,0 +1,647 @@
+{
+  "site": {
+    "name": "Byenveni nan Brezil"
+  },
+  "nav": {
+    "home": "Akèy",
+    "docs": "Dokiman",
+    "work": "Travay",
+    "transport": "Transpò",
+    "life": "Sante, lojman ak edikasyon",
+    "converter": "Konvètisè",
+    "help": "Ki kote pou jwenn èd",
+    "about": "Sou pwojè a"
+  },
+  "common": {
+    "skip": "Ale nan kontni an",
+    "language": "Lang",
+    "menu": "Meni",
+    "mainMenu": "Meni prensipal",
+    "notice": "Enfòmasyon pou oryante w. Verifye nan biwo ofisyèl yo, paske règ, pri ak lè yo ka chanje.",
+    "onThisPage": "Sou paj sa a",
+    "address": "Adrès",
+    "phone": "Telefòn",
+    "email": "Imèl",
+    "site": "Sit entènèt",
+    "confirm": "Lè yo louvri: verifye anvan ou ale.",
+    "verify": "pou verifye",
+    "sources": "Sous ofisyèl",
+    "consulted": "Konsilte 8 oktòb 2026.",
+    "where": "Ki kote pou fè l",
+    "bring": "Sa pou pote",
+    "who": "Ki moun ki bezwen l",
+    "how": "Kijan pou fè l",
+    "cost": "Konbyen li koute",
+    "free": "Gratis.",
+    "buscaSaude": "Busca Saúde: jwenn UBS ou",
+    "photo": "Foto:"
+  },
+  "footer": {
+    "translations": "Moun ki pale lang yo natifnatal ap revize tradiksyon yo.",
+    "updated": "Dènye mizajou:",
+    "updatedDate": "8 oktòb 2026",
+    "project": "Pwojè ekstansyon inivèsitè Renan Matos Barbosa, FAM - Faculdade das Américas."
+  },
+  "home": {
+    "meta": {
+      "title": "Byenveni nan Brezil | Gid pou migran ak refijye",
+      "desc": "Gid ak enfòmasyon esansyèl pou migran ak refijye ki fèk rive: dokiman, travay, transpò, sante, lojman, edikasyon ak ki kote pou jwenn èd."
+    },
+    "kicker": "Gid pou migran ak refijye",
+    "title": "Byenveni nan Brezil",
+    "lead": "Enfòmasyon esansyèl pou moun ki fèk rive, tout nan yon sèl kote, ak lyen pou sit ofisyèl yo.",
+    "sectionsTitle": "Kisa ou bezwen?",
+    "tiles": {
+      "docs": "CPF, RNM, demann azil, kat travay, CadÚnico ak kat SUS",
+      "work": "Dwa, CV, kou ak travay",
+      "transport": "Bilhete Único, metwo, tren, bis ak gratis",
+      "life": "Sant sante, abri, lekòl ak kou pòtigè",
+      "converter": "Gade konbyen yon pri an reyal vo nan lajan peyi w",
+      "help": "Òganizasyon ki bay èd ak nimewo ijans",
+      "about": "Ki moun ki fè l, objektif ak avi legal"
+    }
+  },
+  "docs": {
+    "meta": {
+      "title": "Dokiman | Byenveni nan Brezil",
+      "desc": "Kijan pou fè CPF, RNM, Kat travay dijital, CadÚnico ak kat SUS nan São Paulo, ak kijan pou mande azil."
+    },
+    "title": "Dokiman",
+    "lead": "Kòmanse ak CPF la ak enskripsyon nan Polis Federal la. Avèk yo, li pi fasil pou fè lòt dokiman yo.",
+    "cpf": {
+      "title": "CPF",
+      "what": "CPF se nimewo enskripsyon ou nan Receita Federal (biwo taks Brezil). Ou bezwen l pou travay, pou louvri kont labank epi pou sèvi ak anpil sèvis.",
+      "where": {
+        "1": "Ranpli fòmilè sou entènèt Receita Federal la pou etranje. Ou ap resevwa yon nimewo pwotokòl.",
+        "2": "Pote pwotokòl la ak dokiman ou yo nan yon biwo Receita Federal. La, sèvis la gratis.",
+        "3": "Ou ka ale tou nan yon ajans Correios (lapòs), Banco do Brasil, Caixa oswa nan yon kartòl (cartório). Nan kote sa yo, frè a se R$ 7,00."
+      },
+      "bring": {
+        "1": "Yon pyès idantite ak foto, tankou paspò oswa CRNM.",
+        "2": "Batistè oswa papye maryaj, si dokiman ou pa montre kote ak dat ou fèt ak non paran ou.",
+        "3": "Nimewo pwotokòl la, si ou te ranpli fòmilè sou entènèt la."
+      },
+      "link": "Paj ofisyèl CPF la",
+      "form": "Fòmilè pou etranje"
+    },
+    "rnm": {
+      "title": "RNM ak CRNM",
+      "what": "RNM (Enskripsyon Nasyonal Migratwa) se nimewo enskripsyon ou nan Polis Federal la. CRNM se kat ki gen nimewo sa a. Se pyès idantite ou nan Brezil.",
+      "who": {
+        "1": "Si ou te antre ak yon viza tanporè: fè enskripsyon an nan 90 jou apre ou rive.",
+        "2": "Si ou te resevwa otorizasyon rezidans: fè enskripsyon an nan 30 jou apre li parèt nan Diário Oficial da União (jounal ofisyèl).",
+        "3": "Refijye, moun ki gen azil ak moun san nasyonalite ki deja rekonèt."
+      },
+      "late": "Si ou an reta, ou ka peye yon amann.",
+      "how": {
+        "1": "Ranpli fòmilè sou entènèt Polis Federal la epi peye frè a (bòdero GRU).",
+        "2": "Pran randevou sou entènèt.",
+        "3": "Ale nan biwo Polis Federal zòn kote ou rete a, jou randevou a.",
+        "4": "Ale chèche kat la nan Polis Federal. Anjeneral li pran 30 jou travay."
+      },
+      "bring": {
+        "1": "Lis dokiman yo depann de sitiyasyon ou. Gade paj ofisyèl la anvan ou ale.",
+        "2": "Prèv ou te peye frè a."
+      },
+      "cost": {
+        "1": "Frè pou kat la: R$ 204,77. Pran randevou a gratis.",
+        "2": "Lwa sou Migrasyon an pèmèt moun ki vilnerab oswa ki pa gen lajan pou peye pa peye frè yo. Mande konsèy nan CRAI oswa nan Defansè Piblik Federal la (DPU)."
+      },
+      "link": "Paj ofisyèl enskripsyon an"
+    },
+    "refuge": {
+      "title": "Demann azil",
+      "what": "Si ou te kite peyi w akoz pèsekisyon oswa akoz gwo vyolasyon dwa moun, ou ka mande estati refijye nan Brezil. Demann lan gratis.",
+      "how": {
+        "1": "Kreye yon kont nan SisCONARE, sistèm Ministè Jistis la, ak pwòp imèl ou. Ou ka ranpli fòmilè a an pòtigè, panyòl, angle oswa franse.",
+        "2": "Nan fen an, ou ap resevwa yon nimewo kontwòl.",
+        "3": "Ale nan Polis Federal ak nimewo sa a, yon foto 3x4 ak dokiman ou genyen yo. Chak moun nan fanmi an dwe ale.",
+        "4": "Polis Federal la ap ba ou Pwotokòl Refijye a. Li sèvi kòm pyès idantite ou nan Brezil. Renouvle l chak ane pandan y ap egzamine demann ou an.",
+        "5": "Antre nan SisCONARE omwen yon fwa pa mwa pou wè avi yo, tankou dat entèvyou ou."
+      },
+      "note": "Si ou pa gen dokiman, ou ka fè demann lan kanmenm. Avèk pwotokòl la, ou ka mande CPF ak kat travay.",
+      "link": "Paj ofisyèl SisCONARE"
+    },
+    "ctps": {
+      "title": "Kat travay dijital (Carteira de Trabalho Digital)",
+      "what": "Se dosye tout travay ou yo, nan telefòn ou. Nimewo kat la se CPF ou. Avèk yon travay ki deklare, ou gen aksè ak dwa travayè yo.",
+      "how": {
+        "1": "Fòk ou gen yon CPF.",
+        "2": "Kreye yon kont gov.br (nivo bwonz, ajan oswa lò).",
+        "3": "Telechaje aplikasyon Carteira de Trabalho Digital (Android oswa iPhone) oswa sèvi ak sit Ministè Travay la. Kat la soti touswit."
+      },
+      "help": "Kesyon: rele 158, liy Ministè Travay ak Anplwa a.",
+      "link": "Paj ofisyèl kat travay la",
+      "app": "Telechaje aplikasyon an"
+    },
+    "cad": {
+      "title": "CadÚnico",
+      "what": "Cadastro Único se lis gouvènman an pou fanmi ki pa gen anpil revni. Li bay aksè ak pwogram sosyal, tankou Bolsa Família ak Tarif sosyal elektrisite.",
+      "who": {
+        "1": "Fanmi ki genyen jiska mwatye salè minimòm pou chak moun.",
+        "2": "Nan vil São Paulo, yon lwa minisipal garanti imigran yo aksè ak sèvis piblik, kèlkeswa sitiyasyon migratwa yo."
+      },
+      "where": {
+        "1": "Nan CRAS (Sant Referans Asistans Sosyal) ki toupre lakay ou.",
+        "2": "Nan São Paulo, pran randevou davans nan 156 oswa sou sit Prefeitura a (lakomin).",
+        "3": "Entèvyou a dire anviwon 1 èdtan. Li gratis."
+      },
+      "bring": {
+        "1": "Pou moun ki responsab fanmi an: CPF, pyès idantite ak foto ak prèv adrès (oswa yon deklarasyon rezidans).",
+        "2": "Pou lòt moun nan fanmi an: yon dokiman pou chak moun."
+      },
+      "verify": "Lis ofisyèl la pa pale de dokiman etranje. Verifye nan CRAS oswa nan 121 ki dokiman yo aksepte.",
+      "link": "Paj ofisyèl CadÚnico",
+      "linkSp": "CadÚnico nan lakomin São Paulo"
+    },
+    "sus": {
+      "title": "Kat SUS",
+      "what": "Se kat Sistèm Inik Sante a (SUS). SUS la piblik e gratis. Li swiye nenpòt moun, kèlkeswa nasyonalite oswa sitiyasyon migratwa li.",
+      "where": {
+        "1": "Nan UBS (Inite Sante de Baz) ki pi pre lakay ou.",
+        "2": "Pou jwenn UBS ou, sèvi ak Busca Saúde lakomin nan epi chwazi « Moro neste endereço » (mwen rete nan adrès sa a).",
+        "3": "Yo sèvi ak CPF la tou kòm nimewo idantifikasyon nan SUS."
+      },
+      "bring": {
+        "1": "Yon pyès idantite ak foto, tankou paspò, CRNM oswa Pwotokòl Refijye.",
+        "2": "CPF, si ou genyen l.",
+        "3": "Dapre règ lakomin nan, UBS la pa dwe mande prèv adrès pou enskri w."
+      },
+      "verify": "Nou pa jwenn yon lis ofisyèl dokiman pou etranje. Verifye nan UBS la.",
+      "link": "Paj ofisyèl kat SUS"
+    },
+    "src": {
+      "cpf": "gov.br: Enskri nan CPF",
+      "cpfForm": "Receita Federal: Enskripsyon CPF pou etranje",
+      "rnm": "gov.br / Polis Federal: Enskri kòm etranje nan Brezil",
+      "law": "Lwa nº 13.445/2017 (Lwa sou Migrasyon)",
+      "sisconare": "Ministè Jistis: SisCONARE",
+      "refugeFaq": "Ministè Jistis: Mwen se moun k ap mande azil",
+      "ctps": "gov.br: Jwenn Kat travay la",
+      "cad": "gov.br: Enskri nan Cadastro Único",
+      "cadSp": "Lakomin São Paulo: Cadastro Único",
+      "sus": "Ministè Sante: Kijan ak ki kote pou mande Kat Nasyonal Sante a",
+      "susSp": "Lakomin São Paulo: Direktiv swen debaz (2022)",
+      "busca": "Lakomin São Paulo: Busca Saúde"
+    }
+  },
+  "work": {
+    "meta": {
+      "title": "Travay | Byenveni nan Brezil",
+      "desc": "Dwa travayè migran ak refijye, Kat travay dijital, CV, kou ak ki kote pou chèche travay nan São Paulo."
+    },
+    "title": "Travay",
+    "lead": "Nan Brezil, migran ak refijye gen menm dwa travay ak brezilyen yo.",
+    "rights": {
+      "1": "Avèk yon travay ki deklare, ou gen dwa a salè minimòm, vakans peye, 13yèm mwa, FGTS ak yon jou repo chak semèn.",
+      "2": "Patwon an peye egzamen medikal pou anbochaj la.",
+      "3": "Pèsonn pa ka kenbe dokiman ou yo.",
+      "4": "Pèsonn pa ka fòse w travay pou peye yon dèt.",
+      "5": "Li entèdi pou fè diskriminasyon akoz nasyonalite oswa sitiyasyon migratwa.",
+      "6": "Menm si dokiman ou pa an règ, si ou travay, ou gen dwa travayè.",
+      "title": "Dwa ou",
+      "link": "Dwa migran ak refijye"
+    },
+    "report": {
+      "1": "Travay esklav oswa trafik moun: rele 100 oswa sèvi ak Sistèm Ipê sou entènèt. Ou pa bezwen bay non w.",
+      "2": "Lòt kesyon sou travay: rele 158, liy Ministè Travay ak Anplwa a.",
+      "title": "Kijan pou denonse",
+      "ipe": "Sistèm Ipê: denonsyasyon"
+    },
+    "ctps": {
+      "text": "Li gratis epi li rete nan telefòn ou. Pou jwenn li, ou bezwen yon CPF ak yon kont gov.br.",
+      "jobs": "Nan aplikasyon an, pati « Vagas de emprego » (travay ki disponib) montre travay Sine ki koresponn ak pwofil ou ak adrès ou.",
+      "link": "Gade kijan pou jwenn kat la"
+    },
+    "cv": {
+      "1": "Sèvi ak yon sèl paj, an pòtigè senp.",
+      "2": "Mete non w, telefòn ou, imèl ou ak katye kote ou rete a.",
+      "3": "Ekri lang ou pale yo ak nivo ou nan chak lang.",
+      "4": "Fè lis travay ou yo, soti nan dènye a rive nan pi ansyen an: pòs, konpayi, peyi ak peryòd.",
+      "5": "Mete etid ak kou ou fè. Etid ou fè nan yon lòt peyi konte tou.",
+      "6": "Ou pa bezwen mete foto, nimewo dokiman, relijyon oswa eta sivil.",
+      "7": "Mande yon moun revize l. Cate ak òganizasyon ki sou paj « Ki kote pou jwenn èd » ka ede w.",
+      "title": "Kijan pou fè yon CV"
+    },
+    "courses": {
+      "1": "Pòtigè: pwogram Portas Abertas lakomin nan ofri kou gratis pou imigran.",
+      "2": "Cate (Sant Sipò pou Travay ak Antreprenarya), ki pou lakomin nan, ofri travay, oryantasyon ak kou fòmasyon. Inite santral la resevwa imigran, ak anplwaye ki pale de lang.",
+      "3": "Kèk òganizasyon ki bay èd ofri kou tou. Mande yo dirèkteman.",
+      "title": "Kou ak fòmasyon",
+      "pt": "Kou pòtigè"
+    },
+    "jobs": {
+      "1": "Pòtay Emprega Brasil (Sine), gouvènman federal la. Ou antre ak kont gov.br ou. Li gratis.",
+      "2": "Aplikasyon Carteira de Trabalho Digital, nan pati « Vagas de emprego ».",
+      "3": "Cate, lakomin São Paulo. Pafwa gen seleksyon sèlman pou imigran ak refijye.",
+      "4": "CRAI ak òganizasyon ki bay èd, ki pataje travay ki disponib epi ki oryante moun.",
+      "title": "Ki kote pou chèche travay",
+      "warning": "Atansyon: pa fè konfyans ak travay ki mande lajan pou anboche w oswa ki vle kenbe dokiman ou.",
+      "sine": "Chèche travay nan Sine"
+    },
+    "cate": "Pòtay Cate",
+    "src": {
+      "proteja": "Ministè Travay ak Anplwa: Pwoteksyon travayè migran ak refijye",
+      "faq": "Ministè Travay ak Anplwa: Kesyon moun poze souvan",
+      "sine": "gov.br: Chèche travay nan Sine",
+      "sineApp": "Ministè Travay ak Anplwa: Travay Sine nan Kat travay dijital",
+      "cate": "Lakomin São Paulo: Imigran ak refijye jwenn opòtinite nan Cate",
+      "cateCourses": "Lakomin São Paulo: Travay ak kou fòmasyon pou imigran"
+    }
+  },
+  "transport": {
+    "meta": {
+      "title": "Transpò nan SP | Byenveni nan Brezil",
+      "desc": "Bilhete Único, metwo, tren, bis, gratis ak aplikasyon pou wout nan vil São Paulo."
+    },
+    "title": "Transpò nan São Paulo",
+    "lead": "Bis, metwo ak tren konekte vil la. Avèk Bilhete Único, ou peye mwens lè ou chanje transpò.",
+    "card": {
+      "title": "Bilhete Único",
+      "what": "Se kat pou peye bis minisipal, metwo ak tren nan São Paulo.",
+      "how": {
+        "1": "Enskri sou sit sèvis SPTrans la epi voye yon foto.",
+        "2": "Apre yo apwouve l, al chèche kat la nan yon pòs sèvis, ak yon pyès idantite ak foto. Ou ka mande yo voye l lakay ou tou, men ou peye frè livrezon an.",
+        "3": "Mete kredi nan kote pou rechaje SPTrans endike yo."
+      },
+      "one": "Chak moun ka gen yon sèl Bilhete Único.",
+      "anon": "Gen yon Bilhete Único san non tou. Pou achte l, ou bezwen pyès idantite ak foto ak CPF.",
+      "integration": {
+        "1": "jiska 4 bis diferan, pou yon sèl pri;",
+        "2": "metwo oswa tren plis jiska 3 bis, pou pri entegrasyon an. Vwayaj metwo oswa tren an dwe fèt nan 2 premye èdtan yo.",
+        "title": "Entegrasyon: peye mwens lè ou chanje transpò",
+        "intro": "Ak kredi nòmal, nan 3 èdtan:"
+      },
+      "price": "Pri yo chanje. Gade tablo pri aktyèl yo sou sit SPTrans la.",
+      "link": "Mande Bilhete Único",
+      "prices": "Pri aktyèl yo"
+    },
+    "rail": {
+      "1": "Metwo ak tren yo konekte anpil zòn nan vil la ak nan Gran São Paulo.",
+      "2": "Gen kèk liy se konpayi prive ki jere yo, tankou ViaQuatro ak ViaMobilidade.",
+      "3": "Ou ka peye ak Bilhete Único. Kat liy yo nan estasyon yo ak sou sit ofisyèl yo.",
+      "title": "Metwo ak tren",
+      "metro": "Metwo",
+      "cptm": "CPTM (tren)",
+      "via": "ViaMobilidade"
+    },
+    "bus": {
+      "1": "Se SPTrans ki jere bis minisipal yo. Pou monte, pase Bilhete Único a sou validatè a.",
+      "2": "Bis ki ale nan lòt vil nan rejyon an se bis entèminisipal (EMTU) epi yo gen lòt règ.",
+      "title": "Bis",
+      "sunday": {
+        "1": "Dimanch, bis minisipal yo gratis tout jounen an. Se menm bagay la tou 25 desanm, 1ye janvye ak 25 janvye.",
+        "2": "Sa pa valab pou metwo, tren oswa bis entèminisipal.",
+        "3": "Menm lè li gratis, pase Bilhete Único a sou validatè a. Si ou pa gen kat, mande chofè a oswa kontwolè a èd.",
+        "title": "Domingão Tarifa Zero (dimanch gratis)",
+        "verify": "Pwogram nan te kòmanse an desanm 2023. Verifye sou sit SPTrans la si li toujou ap fonksyone."
+      },
+      "link": "SPTrans: liy ak itinerè"
+    },
+    "free": {
+      "1": "Moun ki gen 60 an oswa plis pa peye bis minisipal, metwo ak tren. Ant 60 ak 64 an, yo mete gratis la chak mwa sou Bilhete Único nòmal la. Apati 65 an, gen Bilhete Único Espesyal pou granmoun.",
+      "2": "Elèv: se lekòl la ki mande Bilhete Único Elèv la epi ki voye enfòmasyon yo bay SPTrans.",
+      "3": "Moun ki gen andikap ka mande Bilhete Único Espesyal. Gade kondisyon yo nan SPTrans.",
+      "4": "Avantaj pou moun ki pa gen travay ak pri sosyal pou moun ki pa gen anpil revni: nou pa konfime règ aktyèl yo nan yon sous ofisyèl. Mande SPTrans, Metrô ak CPTM.",
+      "title": "Gratis ak rabè",
+      "link": "Kesyon ak repons SPTrans"
+    },
+    "apps": {
+      "1": "Aplikasyon kat gratis, tankou Google Maps ak Moovit, montre ki bis, metwo oswa tren pou pran.",
+      "2": "Pou itilize mwens done entènèt, planifye wout ou lè ou sou Wi-Fi epi fè yon kapti ekran.",
+      "3": "Sit SPTrans, Metrô ak CPTM yo montre liy ak kat yo tou.",
+      "title": "Aplikasyon pou wout"
+    },
+    "src": {
+      "6064": "SPTrans: Gratis pou moun 60 a 64 an",
+      "comum": "SPTrans: Bilhete Único nòmal",
+      "faq": "SPTrans: Kesyon ak repons sou Bilhete Único",
+      "anon": "Lakomin São Paulo: Règ Bilhete Único san non",
+      "tarifas": "SPTrans: Pri yo",
+      "sunday": "SPTrans: Domingão Tarifa Zero",
+      "sundayFaq": "SPTrans: Kesyon ak repons sou Tarifa Zero",
+      "idoso": "SPTrans: Bilhete Único Espesyal pou granmoun",
+      "estudante": "SPTrans: Bilhete Único Elèv",
+      "cptmIdoso": "CPTM: Aksè gratis pou granmoun",
+      "metro": "Metwo São Paulo",
+      "cptm": "CPTM"
+    }
+  },
+  "life": {
+    "meta": {
+      "title": "Sante, lojman ak edikasyon | Byenveni nan Brezil",
+      "desc": "UBS ak SUS, sant akèy, enskripsyon lekòl ak kou pòtigè gratis pou migran ak refijye nan São Paulo."
+    },
+    "title": "Sante, lojman ak edikasyon",
+    "lead": "Sante ak lekòl piblik se dwa tout moun, kèlkeswa nasyonalite oswa sitiyasyon migratwa yo.",
+    "health": {
+      "1": "SUS la piblik e gratis. Li swiye nenpòt moun, kèlkeswa nasyonalite oswa sitiyasyon migratwa li.",
+      "2": "UBS (Inite Sante de Baz) se premye kote pou ale: konsiltasyon, vaksen ak referans bay espesyalis.",
+      "3": "Ou ka enskri nan UBS la menm anvan ou fè enskripsyon nan Polis Federal la.",
+      "4": "Pou jwenn UBS adrès ou, sèvi ak Busca Saúde lakomin nan.",
+      "5": "AMA/UBS Pari gen pwofesyonèl ki pale de lang ak pankat an panyòl, angle, franse, arab ak chinwa.",
+      "title": "Sante: UBS ak SUS",
+      "emergency": "Ijans: rele 192 (SAMU) oswa ale nan yon sal ijans (pronto-socorro).",
+      "card": "Kijan pou jwenn kat SUS"
+    },
+    "housing": {
+      "title": "Abri ak lojman",
+      "shelter": {
+        "1": "Lakomin nan gen sant akèy, kèk ladan yo se sèlman pou imigran.",
+        "2": "Pou mande yon plas, rele 156 oswa ale nan CREAS oswa CRAS zòn ou.",
+        "3": "CRAI, sant lakomin nan pou imigran, ka oryante w tou.",
+        "4": "Plas yo depann de disponiblite.",
+        "title": "Si ou pa gen kote pou dòmi"
+      },
+      "rent": {
+        "1": "Mande yon kontra ekri ak yon resi pou chak peman.",
+        "2": "Pa peye anyen anvan ou wè kay la.",
+        "3": "Si ou gen kesyon sou kontra a, ale nan Defansè Piblik la (Defensoria Pública).",
+        "title": "Pou lwe"
+      },
+      "link": "Akèy pou imigran"
+    },
+    "school": {
+      "1": "Tout timoun ak adolesan gen dwa etidye nan lekòl piblik, menm san dokiman e kèlkeswa sitiyasyon migratwa yo.",
+      "2": "Lekòl la pa ka refize enskripsyon an paske pa gen dokiman oswa tradiksyon ofisyèl. Ou ka pote dokiman yo pita.",
+      "3": "Si pa gen dosye lekòl, lekòl la fè yon evalyasyon pou chwazi bon klas pou elèv la.",
+      "4": "Ale nan lekòl ki pi pre lakay ou. Si ou gen difikilte, ale nan Diretoria Regional de Educação (direksyon rejyonal edikasyon) oswa nan Conselho Tutelar (konsèy pwoteksyon timoun).",
+      "title": "Enskripsyon lekòl",
+      "link": "Enskripsyon san dokiman"
+    },
+    "pt": {
+      "1": "Pou moun ki gen 16 an oswa plis.",
+      "2": "Ou pa bezwen dokiman. Sitiyasyon migratwa a pa enpòtan.",
+      "3": "Enskripsyon tout ane a, dirèkteman nan lekòl minisipal ki patisipe nan pwogram nan.",
+      "4": "Nivo debitan, mwayen ak avanse. Elèv ki vini omwen 75% nan kou yo resevwa yon sètifika.",
+      "title": "Kou pòtigè",
+      "what": "Portas Abertas se kou pòtigè gratis lakomin nan pou imigran.",
+      "link": "Portas Abertas: lekòl ak enskripsyon"
+    },
+    "src": {
+      "saude": "Lakomin São Paulo: Swen sante pou imigran",
+      "pari": "Lakomin São Paulo: AMA/UBS Pari resevwa pasyan 87 nasyonalite",
+      "acolhimento": "Lakomin São Paulo: Enfòmasyon sou akèy",
+      "centros": "Lakomin São Paulo: Sant akèy (Centros de Acolhida)",
+      "cne": "Konsèy Nasyonal Edikasyon: Rezolisyon CNE/CEB nº 1/2020",
+      "sme": "Sekretarya Minisipal Edikasyon: Enskripsyon san dokiman",
+      "portas": "Lakomin São Paulo: Portas Abertas",
+      "portasSme": "Sekretarya Minisipal Edikasyon: Enskripsyon nan Portas Abertas"
+    }
+  },
+  "converter": {
+    "meta": {
+      "title": "Konvètisè lajan | Byenveni nan Brezil",
+      "desc": "Konvèti reyal an lajan peyi w epi gade konbyen ou depanse, ak to ofisyèl Bank Santral Brezil la."
+    },
+    "title": "Konvètisè lajan",
+    "lead": "Gade konbyen yon pri an reyal vo nan lajan peyi w. Sèvi ak li pou konpare pri epi planifye depans ou.",
+    "form": {
+      "title": "Konvèti montan"
+    },
+    "amount": "Montan",
+    "currency": "Lajan peyi w",
+    "direction": "Sans",
+    "fromBrl": "Soti nan reyal pou lajan peyi m",
+    "toBrl": "Soti nan lajan peyi m pou reyal",
+    "result": "Rezilta",
+    "rate": "{from} = {to}",
+    "date": "To referans Bank Santral Brezil la nan dat {date}.",
+    "error": "Nou pa t ka chaje to chanj yo. Eseye ankò pita.",
+    "tips": {
+      "title": "Anvan ou chanje oswa voye lajan",
+      "1": "Montan ki parèt la se yon referans, ki kalkile ak to ofisyèl Bank Santral Brezil la.",
+      "2": "Biwo chanj, bank ak aplikasyon pou voye lajan pran frè. Montan ou resevwa a ka pi piti.",
+      "3": "Konpare montan final la nan plis pase yon kote anvan ou chanje oswa voye lajan.",
+      "4": "Gen kèk lajan ki chanje valè trè vit. Verifye dat to a."
+    },
+    "src": {
+      "bcb": "Bank Santral Brezil: Konvètisè lajan",
+      "history": "Bank Santral Brezil: To ak bilten",
+      "procon": "Procon-SP ak Dieese: Ankèt sou panye debaz, out 2026",
+      "wage": "Dekrè nº 12.797/2025: salè minimòm 2026",
+      "anp": "ANP: Rezime chak semèn sou pri gaz, 27/09 rive 03/10/2026"
+    }
+  },
+  "prices": {
+    "title": "Konbyen bagay yo koute nan Brezil",
+    "intro": "Pri mwayen pou ba w yon lide sou valè lajan an. Si yon moun mande w pi plis pase sa anpil, mefye w epi konpare yon lòt kote.",
+    "refs": {
+      "title": "Valè referans",
+      "wage": "Salè minimòm nasyonal (pa mwa)",
+      "basket": "Panye debaz konplè nan São Paulo (39 pwodui manje, netwayaj ak ijyèn)",
+      "gas": "Bonbòn gaz pou kizin (13 kg), vil São Paulo",
+      "bus": "Tikè bis minisipal nan São Paulo",
+      "metro": "Tikè metwo oswa tren nan São Paulo"
+    },
+    "col": {
+      "item": "Pwodui",
+      "brl": "An reyal",
+      "conv": "Nan lajan peyi w"
+    },
+    "market": {
+      "title": "Nan makèt la",
+      "note": "Pri mwayen nan vil São Paulo, Procon-SP te ranmase 31 out 2026. Nan lòt vil ak lòt magazen, pri yo ka diferan."
+    },
+    "items": {
+      "rice": "Diri (pake 5 kg)",
+      "beans": "Pwa carioca (1 kg)",
+      "sugar": "Sik rafine (pake 5 kg)",
+      "coffee": "Kafe moulen (500 g)",
+      "oil": "Lwil soya (900 ml)",
+      "milk": "Lèt UHT (1 lit)",
+      "eggs": "Ze blan (1 douzèn)",
+      "bread": "Pen fransè (1 kg)",
+      "pasta": "Espageti (500 g)",
+      "chicken": "Poul antye (1 kg)",
+      "beef": "Vyann bèf san zo, dezyèm kalite (1 kg)",
+      "potato": "Pòmdetè (1 kg)",
+      "onion": "Zonyon (1 kg)",
+      "detergent": "Savon lave vèsèl (500 ml)",
+      "powder": "Fab (1 kg)",
+      "paper": "Papye ijyenik (4 woulo)",
+      "toothpaste": "Pat dantifris (90 g)",
+      "soap": "Savon pou benyen (90 g)"
+    },
+    "free": {
+      "title": "Sèvis ki gratis",
+      "intro": "Pèsonn pa ka fè w peye pou sèvis piblik sa yo. Si yo mande w lajan, se yon eskwokri.",
+      "refuge": "Demann azil",
+      "cpf": "CPF ki fèt nan Receita Federal (nan lapòs, bank ak kartòl, frè ofisyèl la se R$ 7,00)",
+      "ctps": "Kat travay dijital",
+      "sus": "Kat SUS ak swen nan SUS",
+      "cad": "Enskripsyon nan CadÚnico",
+      "school": "Enskripsyon nan lekòl piblik",
+      "portuguese": "Kou pòtigè Portas Abertas",
+      "help": "Sèvis nan CRAI ak nan Defansè Piblik la",
+      "crnm": "Kat enskripsyon migratwa a (CRNM) gen yon frè ofisyèl R$ 204,77, ou peye l sèlman ak bòdero gouvènman an (GRU). Moun ki pa ka peye ka mande pou yo pa peye."
+    },
+    "scam": {
+      "title": "Siy eskwokri",
+      "1": "Yo mande w lajan pou jwenn travay, plas nan abri oswa yon dokiman.",
+      "2": "Yo mande w yon depo oswa yon Pix anvan ou wè kay pou lwe a.",
+      "3": "Yo ofri w chanje lajan nan lari ak yon to ki pi bon anpil pase to bank la.",
+      "4": "Yo vle kenbe paspò ou oswa dokiman ou.",
+      "5": "Yo fè presyon pou ou peye touswit, san tan pou reflechi.",
+      "report": "Ki kote pou denonse",
+      "r1": "Pwoblèm ak acha, pri ak sèvis: Procon-SP.",
+      "r2": "Eskwokri oswa krim: rele 190 oswa fè yon plent nan Delegacia Eletrônica (komisarya sou entènèt).",
+      "r3": "Travay esklav oswa trafik moun: rele 100.",
+      "procon": "Procon-SP",
+      "police": "Delegacia Eletrônica"
+    }
+  },
+  "help": {
+    "meta": {
+      "title": "Ki kote pou jwenn èd | Byenveni nan Brezil",
+      "desc": "Nimewo ijans ak òganizasyon ki ede migran ak refijye nan São Paulo, ak adrès, telefòn ak sit entènèt."
+    },
+    "title": "Ki kote pou jwenn èd",
+    "lead": "Sèvis piblik ak òganizasyon ki ede migran ak refijye. Sèvis la gratis.",
+    "phones": {
+      "100": "Dwa moun ak travay esklav",
+      "121": "CadÚnico ak Bolsa Família",
+      "156": "Lakomin São Paulo",
+      "158": "Ministè Travay",
+      "180": "Vyolans kont fanm",
+      "190": "Polis Militè",
+      "192": "SAMU: ijans medikal",
+      "193": "Ponpye",
+      "title": "Nimewo itil"
+    },
+    "public": {
+      "title": "Sèvis piblik"
+    },
+    "ngo": {
+      "title": "Òganizasyon ki bay èd"
+    },
+    "hours": "Nou pa pibliye lè yo louvri, paske yo chanje. Verifye anvan ou ale. Enfòmasyon ki make « pou verifye » poko konfime nan yon sous ofisyèl.",
+    "crai": {
+      "name": "CRAI Oriana Jara (lakomin São Paulo)",
+      "desc": "Sant referans pou imigran, ak sèvis nan plizyè lang: regilarizasyon migratwa, sèvis sosyal, oryantasyon jiridik ak sipò sikolojik. Defansè Piblik Federal la (DPU) resevwa moun la sou randevou."
+    },
+    "cic": {
+      "name": "CIC do Imigrante (gouvènman Eta São Paulo)",
+      "desc": "Oryantasyon jiridik, sipò sikolojik ak sosyal, kou ak referans pou travay."
+    },
+    "dpe": {
+      "name": "Defansè Piblik Eta São Paulo",
+      "desc": "Avoka piblik gratis pou moun ki pa ka peye. Èd pou lojman, fanmi, sante ak lòt dwa.",
+      "contact": "Adrès ak telefòn"
+    },
+    "dpu": {
+      "name": "Defansè Piblik Federal (DPU)",
+      "desc": "Defansè piblik federal. Èd sou kesyon migrasyon, azil ak Polis Federal."
+    },
+    "acnur": {
+      "name": "HCR Brezil (Ajans Nasyonzini pou Refijye)",
+      "desc": "Enfòmasyon pou refijye ak moun k ap mande azil, nan plizyè lang, sou sit Help la."
+    },
+    "ci": {
+      "name": "Centro do Imigrante (Associação AGIR)"
+    },
+    "cim": {
+      "name": "Centro de Integração do Migrante (CIM)"
+    },
+    "scal": {
+      "name": "Misyon Skalabrinyèn"
+    },
+    "paz": {
+      "name": "Missão Paz"
+    },
+    "cami": {
+      "name": "CAMI (Sant Sipò ak Pastoral pou Migran)"
+    },
+    "caritas": {
+      "name": "Cáritas Arquidiocesana de São Paulo",
+      "desc": "Resevwa refijye ak moun k ap mande azil, ansanm ak HCR.",
+      "phone": "Telefòn ak WhatsApp"
+    },
+    "src": {
+      "158": "gov.br: Liy 158 Ministè Travay ak Anplwa",
+      "crai": "Lakomin São Paulo: Sèvis CRAI Oriana Jara",
+      "cic": "Lakomin São Paulo: Nouvo adrès CIC do Imigrante",
+      "dpe": "Defansè Piblik Eta São Paulo",
+      "dpu": "Defansè Piblik Federal",
+      "acnur": "HCR Brezil",
+      "caritas": "Cáritas Arquidiocesana de São Paulo (sit òganizasyon an)",
+      "ci": "Centro do Imigrante (sit òganizasyon an)",
+      "camiSite": "CAMI (sit òganizasyon an)",
+      "cami": "Lakomin São Paulo: Lis kou pòtigè (2019), ak adrès CAMI"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Sou pwojè a | Byenveni nan Brezil",
+      "desc": "Sou gid Byenveni nan Brezil: otè, kou, fakilte, objektif, sous ak avi legal."
+    },
+    "title": "Sou pwojè a",
+    "lead": "Byenveni nan Brezil se yon pwojè ekstansyon inivèsitè.",
+    "who": {
+      "title": "Ki moun ki fè l",
+      "author": "Otè",
+      "course": "Kou",
+      "courseName": "Analiz ak Devlopman Sistèm",
+      "college": "Fakilte"
+    },
+    "goal": {
+      "title": "Objektif",
+      "text": "Ede migran ak refijye ki fèk rive nan Brezil, ak tout enfòmasyon esansyèl yo nan yon sèl kote: dokiman, travay, transpò, sante, lojman, edikasyon ak ki kote pou jwenn èd.",
+      "design": "Sit la lejè, li fèt pou telefòn ak entènèt limite, ak gwo lèt ak yon langaj senp."
+    },
+    "method": {
+      "title": "Ki kote enfòmasyon yo soti",
+      "text": "Nou chèche enfòmasyon yo nan sous ofisyèl, tankou gov.br, Polis Federal, Receita Federal, Ministè Travay ak Anplwa, Ministè Sante, Ministè Jistis, lakomin São Paulo, SPTrans, Metrô, CPTM ak HCR. Chak paj montre sous li yo ak dat nou te konsilte yo.",
+      "verify": "Lè nou pa t ka konfime yon enfòmasyon nan yon sous ofisyèl, li make « pou verifye »."
+    },
+    "privacy": {
+      "title": "Vi prive",
+      "text": "Sit sa a pa sèvi ak cookies epi li pa ranmase done pèsonèl. Lang ou chwazi a rete sèlman nan aparèy ou."
+    },
+    "legal": {
+      "1": "Sit sa a se pa yon sèvis ofisyèl. Li pa gen okenn lyen ak biwo piblik oswa ak òganizasyon ki site yo.",
+      "2": "Enfòmasyon yo se pou oryante w, yo pa ranplase sèvis biwo ofisyèl yo ni konsèy yon avoka oswa yon defansè piblik.",
+      "3": "Règ, pri, adrès ak lè yo ka chanje. Toujou verifye nan kanal ofisyèl yo anvan ou ale yon kote oswa anvan ou peye yon frè.",
+      "title": "Avi legal"
+    },
+    "credits": {
+      "title": "Kredi foto yo",
+      "text": "Foto yo soti nan Wikimedia Commons epi yo gen lisans lib. Nou koupe yo epi redui yo pou yo chaje pi vit."
+    }
+  },
+  "notFound": {
+    "meta": {
+      "title": "Paj la pa egziste | Byenveni nan Brezil",
+      "desc": "Paj sa a pa egziste."
+    },
+    "title": "Paj la pa egziste",
+    "text": "Paj sa a pa egziste oswa li chanje adrès.",
+    "back": "Retounen nan akèy"
+  },
+  "photos": {
+    "inicio": {
+      "alt": "Vi Rio de Janeiro ak Kris Redanmtè a sou bò gòch ak Pen Sik la dèyè",
+      "caption": "Rio de Janeiro, ak Kris Redanmtè a ak Pen Sik la."
+    },
+    "documentos": {
+      "alt": "Paspò brezilyen ak kouvèti ble",
+      "caption": "Paspò brezilyen."
+    },
+    "trabalho": {
+      "alt": "Tab fwi ki gen anpil koulè nan Mache minisipal São Paulo",
+      "caption": "Tab fwi nan Mache minisipal São Paulo."
+    },
+    "transporte": {
+      "alt": "Tren liy 5-Lila metwo a ki kanpe nan estasyon Campo Belo",
+      "caption": "Estasyon Campo Belo, liy 5-Lila metwo São Paulo."
+    },
+    "saude": {
+      "alt": "Pankat yon Inite Sante de Baz",
+      "caption": "Pankat yon Inite Sante de Baz (UBS) nan Urupês, nan eta São Paulo."
+    },
+    "ajuda": {
+      "alt": "Bilding nan sant vil São Paulo yon jou syèl ble",
+      "caption": "Sant vil São Paulo, wè depi bibliyotèk Mário de Andrade."
+    }
+  }
+}

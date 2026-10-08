@@ -1,0 +1,647 @@
+{
+  "site": {
+    "name": "Bienvenue au Brésil"
+  },
+  "nav": {
+    "home": "Accueil",
+    "docs": "Documents",
+    "work": "Travail",
+    "transport": "Transports",
+    "life": "Santé, logement et éducation",
+    "converter": "Convertisseur",
+    "help": "Où trouver de l’aide",
+    "about": "À propos du projet"
+  },
+  "common": {
+    "skip": "Aller au contenu",
+    "language": "Langue",
+    "menu": "Menu",
+    "mainMenu": "Menu principal",
+    "notice": "Information d’orientation. Vérifiez auprès des organismes officiels, car les règles, les prix et les horaires peuvent changer.",
+    "onThisPage": "Sur cette page",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "site": "Site web",
+    "confirm": "Horaires : vérifiez avant d’y aller.",
+    "verify": "à vérifier",
+    "sources": "Sources officielles",
+    "consulted": "Consulté le 8 octobre 2026.",
+    "where": "Où l’obtenir",
+    "bring": "Quoi apporter",
+    "who": "Qui en a besoin",
+    "how": "Comment faire",
+    "cost": "Combien ça coûte",
+    "free": "Gratuit.",
+    "buscaSaude": "Busca Saúde : trouver votre UBS",
+    "photo": "Photo :"
+  },
+  "footer": {
+    "translations": "Les traductions sont en cours de révision par des locuteurs natifs.",
+    "updated": "Dernière mise à jour :",
+    "updatedDate": "8 octobre 2026",
+    "project": "Projet d’extension universitaire de Renan Matos Barbosa, FAM - Faculdade das Américas."
+  },
+  "home": {
+    "meta": {
+      "title": "Bienvenue au Brésil | Guide pour les migrants et les réfugiés",
+      "desc": "Guide avec les informations essentielles pour les migrants et les réfugiés qui viennent d’arriver : documents, travail, transports, santé, logement, éducation et où trouver de l’aide."
+    },
+    "kicker": "Guide pour les migrants et les réfugiés",
+    "title": "Bienvenue au Brésil",
+    "lead": "Les informations essentielles pour les personnes qui viennent d’arriver, réunies en un seul endroit, avec des liens vers les sites officiels.",
+    "sectionsTitle": "De quoi avez-vous besoin ?",
+    "tiles": {
+      "docs": "CPF, RNM, demande d’asile, carte de travail, CadÚnico et carte SUS",
+      "work": "Droits, CV, formations et offres d’emploi",
+      "transport": "Bilhete Único, métro, train, bus et gratuités",
+      "life": "Centres de santé, hébergement, école et cours de portugais",
+      "converter": "Voyez combien vaut un prix en reais dans votre monnaie",
+      "help": "Organisations d’aide et numéros d’urgence",
+      "about": "Qui l’a fait, objectif et mentions légales"
+    }
+  },
+  "docs": {
+    "meta": {
+      "title": "Documents | Bienvenue au Brésil",
+      "desc": "Comment obtenir le CPF, le RNM, la carte de travail numérique, le CadÚnico et la carte SUS à São Paulo, et comment demander le statut de réfugié."
+    },
+    "title": "Documents",
+    "lead": "Commencez par le CPF et l’enregistrement auprès de la Police fédérale. Avec eux, il est plus facile d’obtenir les autres documents.",
+    "cpf": {
+      "title": "CPF",
+      "what": "Le CPF est votre numéro d’enregistrement auprès de la Receita Federal (l’administration fiscale du Brésil). Vous en avez besoin pour travailler, ouvrir un compte bancaire et utiliser de nombreux services.",
+      "where": {
+        "1": "Remplissez le formulaire en ligne de la Receita Federal pour les étrangers. Vous recevrez un numéro de protocole.",
+        "2": "Apportez le protocole et vos documents dans un bureau de la Receita Federal. Le service y est gratuit.",
+        "3": "Vous pouvez aussi aller dans une agence des Correios (la poste), de la Banco do Brasil ou de la Caixa, ou dans un office d’état civil (cartório). Dans ces lieux, les frais sont de R$ 7,00."
+      },
+      "bring": {
+        "1": "Une pièce d’identité avec photo, comme le passeport ou la CRNM.",
+        "2": "Un acte de naissance ou de mariage, si votre document ne montre pas votre lieu et date de naissance et le nom de vos parents.",
+        "3": "Le numéro de protocole, si vous avez rempli le formulaire en ligne."
+      },
+      "link": "Page officielle du CPF",
+      "form": "Formulaire pour les étrangers"
+    },
+    "rnm": {
+      "title": "RNM et CRNM",
+      "what": "Le RNM (Registre national migratoire) est votre numéro d’enregistrement auprès de la Police fédérale. La CRNM est la carte avec ce numéro. C’est votre pièce d’identité au Brésil.",
+      "who": {
+        "1": "Si vous êtes entré avec un visa temporaire : faites l’enregistrement dans les 90 jours après votre arrivée.",
+        "2": "Si vous avez reçu une autorisation de résidence : faites l’enregistrement dans les 30 jours après sa publication au Diário Oficial da União (journal officiel).",
+        "3": "Les réfugiés, les asilés et les apatrides déjà reconnus."
+      },
+      "late": "En cas de retard, vous pouvez recevoir une amende.",
+      "how": {
+        "1": "Remplissez le formulaire en ligne de la Police fédérale et payez la taxe (bordereau GRU).",
+        "2": "Prenez rendez-vous sur internet.",
+        "3": "Allez au bureau de la Police fédérale de la région où vous habitez, le jour du rendez-vous.",
+        "4": "Retirez la carte à la Police fédérale. Le délai moyen est de 30 jours ouvrables."
+      },
+      "bring": {
+        "1": "La liste des documents dépend de votre situation. Consultez la page officielle avant d’y aller.",
+        "2": "La preuve de paiement de la taxe."
+      },
+      "cost": {
+        "1": "Taxe d’émission de la carte : R$ 204,77. La prise de rendez-vous est gratuite.",
+        "2": "La loi sur la migration prévoit l’exonération des taxes pour les personnes vulnérables ou qui n’ont pas les moyens de payer. Demandez conseil au CRAI ou à la Défense publique de l’Union (DPU)."
+      },
+      "link": "Page officielle de l’enregistrement"
+    },
+    "refuge": {
+      "title": "Demande d’asile",
+      "what": "Si vous avez quitté votre pays à cause de persécutions ou de graves violations des droits humains, vous pouvez demander le statut de réfugié au Brésil. La demande est gratuite.",
+      "how": {
+        "1": "Créez un compte sur le SisCONARE, le système du ministère de la Justice, avec votre propre adresse e-mail. Le formulaire peut être rempli en portugais, espagnol, anglais ou français.",
+        "2": "À la fin, vous recevrez un numéro de contrôle.",
+        "3": "Allez à la Police fédérale avec ce numéro, une photo 3x4 et les documents que vous avez. Chaque membre de la famille doit y aller.",
+        "4": "La Police fédérale remet le Protocole de réfugié. Il sert de document d’identité au Brésil. Renouvelez-le chaque année tant que votre demande est en cours d’examen.",
+        "5": "Connectez-vous au SisCONARE au moins une fois par mois pour voir les avis, comme la date de votre entretien."
+      },
+      "note": "Ne pas avoir de documents n’empêche pas de faire la demande. Avec le protocole, vous pouvez demander le CPF et la carte de travail.",
+      "link": "Page officielle du SisCONARE"
+    },
+    "ctps": {
+      "title": "Carte de travail numérique (Carteira de Trabalho Digital)",
+      "what": "C’est le registre de vos emplois, sur votre téléphone. Le numéro de la carte est votre CPF. Avec un emploi déclaré, vous avez accès aux droits du travail.",
+      "how": {
+        "1": "Ayez un CPF.",
+        "2": "Créez un compte gov.br (niveau bronze, argent ou or).",
+        "3": "Téléchargez l’application Carteira de Trabalho Digital (Android ou iPhone) ou utilisez le site du ministère du Travail. La carte est créée immédiatement."
+      },
+      "help": "Questions : appelez le 158, la ligne du ministère du Travail et de l’Emploi.",
+      "link": "Page officielle de la carte",
+      "app": "Télécharger l’application"
+    },
+    "cad": {
+      "title": "CadÚnico",
+      "what": "Le Cadastro Único est le registre du gouvernement pour les familles à faible revenu. Il donne accès à des programmes sociaux, comme le Bolsa Família et le tarif social de l’électricité.",
+      "who": {
+        "1": "Les familles dont le revenu est d’au maximum un demi-salaire minimum par personne.",
+        "2": "Dans la ville de São Paulo, une loi municipale garantit aux immigrés l’accès aux services publics, quelle que soit leur situation migratoire."
+      },
+      "where": {
+        "1": "Au CRAS (Centre de référence d’assistance sociale) près de chez vous.",
+        "2": "À São Paulo, prenez rendez-vous à l’avance au 156 ou sur le site de la Prefeitura (mairie).",
+        "3": "L’entretien dure environ 1 heure. Il est gratuit."
+      },
+      "bring": {
+        "1": "De la personne responsable de la famille : CPF, pièce d’identité avec photo et justificatif de domicile (ou une déclaration de résidence).",
+        "2": "Des autres membres de la famille : un document pour chaque personne."
+      },
+      "verify": "La liste officielle ne parle pas des documents étrangers. Vérifiez au CRAS ou au 121 quels documents sont acceptés.",
+      "link": "Page officielle du CadÚnico",
+      "linkSp": "CadÚnico à la mairie de São Paulo"
+    },
+    "sus": {
+      "title": "Carte SUS",
+      "what": "C’est la carte du Système unique de santé (SUS). Le SUS est public et gratuit. Il soigne toute personne, quelle que soit sa nationalité ou sa situation migratoire.",
+      "where": {
+        "1": "À l’UBS (Unité de santé de base) la plus proche de chez vous.",
+        "2": "Pour trouver votre UBS, utilisez le Busca Saúde de la mairie et choisissez « Moro neste endereço » (j’habite à cette adresse).",
+        "3": "Le CPF est aussi utilisé comme numéro d’identification dans le SUS."
+      },
+      "bring": {
+        "1": "Une pièce d’identité avec photo, comme le passeport, la CRNM ou le Protocole de réfugié.",
+        "2": "Le CPF, si vous l’avez.",
+        "3": "Selon les règles de la mairie, l’UBS ne doit pas exiger de justificatif de domicile pour vous inscrire."
+      },
+      "verify": "Nous n’avons pas trouvé de liste officielle de documents pour les étrangers. Vérifiez à l’UBS.",
+      "link": "Page officielle de la carte SUS"
+    },
+    "src": {
+      "cpf": "gov.br : S’inscrire au CPF",
+      "cpfForm": "Receita Federal : Inscription au CPF pour étrangers",
+      "rnm": "gov.br / Police fédérale : S’enregistrer comme étranger au Brésil",
+      "law": "Loi nº 13.445/2017 (Loi sur la migration)",
+      "sisconare": "Ministère de la Justice : SisCONARE",
+      "refugeFaq": "Ministère de la Justice : Je suis demandeur d’asile",
+      "ctps": "gov.br : Obtenir la carte de travail",
+      "cad": "gov.br : S’inscrire au Cadastro Único",
+      "cadSp": "Mairie de São Paulo : Cadastro Único",
+      "sus": "Ministère de la Santé : Comment et où demander la Carte nationale de santé",
+      "susSp": "Mairie de São Paulo : Directives des soins primaires (2022)",
+      "busca": "Mairie de São Paulo : Busca Saúde"
+    }
+  },
+  "work": {
+    "meta": {
+      "title": "Travail | Bienvenue au Brésil",
+      "desc": "Droits du travail des migrants et des réfugiés, carte de travail numérique, CV, formations et où chercher un emploi à São Paulo."
+    },
+    "title": "Travail",
+    "lead": "Au Brésil, les migrants et les réfugiés ont les mêmes droits du travail que les Brésiliens.",
+    "rights": {
+      "1": "Avec un emploi déclaré, vous avez droit au salaire minimum, aux congés payés, au 13e mois, au FGTS et au repos hebdomadaire.",
+      "2": "L’employeur paie les examens médicaux d’embauche.",
+      "3": "Personne ne peut garder vos documents.",
+      "4": "Personne ne peut vous obliger à travailler pour payer une dette.",
+      "5": "La discrimination en raison de la nationalité ou de la situation migratoire est interdite.",
+      "6": "Même si vos documents ne sont pas en règle, si vous travaillez, vous avez des droits.",
+      "title": "Vos droits",
+      "link": "Droits des migrants et des réfugiés"
+    },
+    "report": {
+      "1": "Travail forcé ou traite des personnes : appelez le 100 ou utilisez le Système Ipê en ligne. Vous n’avez pas besoin de donner votre nom.",
+      "2": "Autres questions sur le travail : appelez le 158, la ligne du ministère du Travail et de l’Emploi.",
+      "title": "Comment signaler",
+      "ipe": "Système Ipê : signalement"
+    },
+    "ctps": {
+      "text": "Elle est gratuite et reste sur votre téléphone. Pour l’obtenir, il faut un CPF et un compte gov.br.",
+      "jobs": "Dans l’application, la rubrique « Vagas de emprego » (offres d’emploi) montre les offres du Sine qui correspondent à votre profil et à votre adresse.",
+      "link": "Voir comment obtenir la carte"
+    },
+    "cv": {
+      "1": "Utilisez une seule page, en portugais simple.",
+      "2": "Indiquez votre nom, téléphone, e-mail et le quartier où vous habitez.",
+      "3": "Écrivez les langues que vous parlez et votre niveau dans chacune.",
+      "4": "Listez vos emplois, du plus récent au plus ancien : poste, entreprise, pays et période.",
+      "5": "Ajoutez vos études et formations. Les études faites dans un autre pays comptent aussi.",
+      "6": "Il n’est pas nécessaire d’ajouter une photo, des numéros de documents, votre religion ou votre situation familiale.",
+      "7": "Demandez à quelqu’un de le relire. Le Cate et les organisations de la page « Où trouver de l’aide » peuvent vous aider.",
+      "title": "Comment faire un CV"
+    },
+    "courses": {
+      "1": "Portugais : le programme Portas Abertas de la mairie propose des cours gratuits pour les immigrés.",
+      "2": "Le Cate (Centre d’appui au travail et à l’entrepreneuriat), de la mairie, propose des offres d’emploi, de l’orientation et des formations. L’unité centrale accueille les immigrés, avec du personnel bilingue.",
+      "3": "Certaines organisations d’aide proposent aussi des cours. Renseignez-vous directement auprès d’elles.",
+      "title": "Cours et formations",
+      "pt": "Cours de portugais"
+    },
+    "jobs": {
+      "1": "Portail Emprega Brasil (Sine), du gouvernement fédéral. Vous vous connectez avec votre compte gov.br. C’est gratuit.",
+      "2": "Application Carteira de Trabalho Digital, rubrique « Vagas de emprego ».",
+      "3": "Le Cate, de la mairie de São Paulo. Il y a parfois des recrutements réservés aux immigrés et aux réfugiés.",
+      "4": "Le CRAI et les organisations d’aide, qui diffusent des offres et orientent.",
+      "title": "Où chercher un emploi",
+      "warning": "Attention : méfiez-vous des offres qui demandent de l’argent pour vous embaucher ou qui veulent garder vos documents.",
+      "sine": "Chercher un emploi sur le Sine"
+    },
+    "cate": "Portail du Cate",
+    "src": {
+      "proteja": "Ministère du Travail et de l’Emploi : Protection des travailleurs migrants et réfugiés",
+      "faq": "Ministère du Travail et de l’Emploi : Questions fréquentes",
+      "sine": "gov.br : Chercher un emploi sur le Sine",
+      "sineApp": "Ministère du Travail et de l’Emploi : Offres du Sine dans la carte de travail numérique",
+      "cate": "Mairie de São Paulo : Les immigrés et les réfugiés trouvent des opportunités au Cate",
+      "cateCourses": "Mairie de São Paulo : Offres d’emploi et formations pour les immigrés"
+    }
+  },
+  "transport": {
+    "meta": {
+      "title": "Transports à SP | Bienvenue au Brésil",
+      "desc": "Bilhete Único, métro, train, bus, gratuités et applications d’itinéraire dans la ville de São Paulo."
+    },
+    "title": "Transports à São Paulo",
+    "lead": "Les bus, le métro et le train relient la ville. Avec le Bilhete Único, vous payez moins quand vous changez de transport.",
+    "card": {
+      "title": "Bilhete Único",
+      "what": "C’est la carte pour payer les bus municipaux, le métro et le train à São Paulo.",
+      "how": {
+        "1": "Inscrivez-vous sur le site d’accueil de la SPTrans et envoyez une photo.",
+        "2": "Après validation, retirez la carte dans un point d’accueil, avec une pièce d’identité avec photo. Vous pouvez aussi la recevoir chez vous en payant l’envoi.",
+        "3": "Chargez des crédits dans les points de recharge indiqués par la SPTrans."
+      },
+      "one": "Chaque personne ne peut avoir qu’un seul Bilhete Único.",
+      "anon": "Il existe aussi un Bilhete Único sans nom. Pour l’acheter, il faut une pièce d’identité avec photo et un CPF.",
+      "integration": {
+        "1": "jusqu’à 4 bus différents, en payant un seul tarif ;",
+        "2": "métro ou train plus jusqu’à 3 bus, en payant le tarif d’intégration. Le trajet en métro ou en train doit se faire dans les 2 premières heures.",
+        "title": "Correspondances : payez moins en changeant de transport",
+        "intro": "Avec des crédits normaux, en 3 heures :"
+      },
+      "price": "Les prix changent. Consultez le tableau actuel des tarifs sur le site de la SPTrans.",
+      "link": "Demander le Bilhete Único",
+      "prices": "Tarifs actuels"
+    },
+    "rail": {
+      "1": "Le métro et les trains de banlieue relient de nombreuses zones de la ville et du Grand São Paulo.",
+      "2": "Certaines lignes sont exploitées par des entreprises privées, comme ViaQuatro et ViaMobilidade.",
+      "3": "Vous pouvez payer avec le Bilhete Único. Le plan des lignes se trouve dans les stations et sur les sites officiels.",
+      "title": "Métro et train",
+      "metro": "Métro",
+      "cptm": "CPTM (trains)",
+      "via": "ViaMobilidade"
+    },
+    "bus": {
+      "1": "Les bus municipaux sont gérés par la SPTrans. Pour monter, passez le Bilhete Único sur le valideur.",
+      "2": "Les bus qui vont vers d’autres villes de la région sont intercommunaux (EMTU) et ont d’autres règles.",
+      "title": "Bus",
+      "sunday": {
+        "1": "Le dimanche, les bus municipaux sont gratuits toute la journée. C’est aussi valable le 25 décembre, le 1er janvier et le 25 janvier.",
+        "2": "Ce n’est pas valable pour le métro, le train ni les bus intercommunaux.",
+        "3": "Même quand c’est gratuit, passez le Bilhete Único sur le valideur. Si vous n’avez pas de carte, demandez de l’aide au chauffeur ou au receveur.",
+        "title": "Domingão Tarifa Zero (dimanches gratuits)",
+        "verify": "Le programme a commencé en décembre 2023. Vérifiez sur le site de la SPTrans s’il est toujours en vigueur."
+      },
+      "link": "SPTrans : lignes et itinéraires"
+    },
+    "free": {
+      "1": "Les personnes de 60 ans ou plus ne paient pas les bus municipaux, le métro et le train. De 60 à 64 ans, la gratuité est chargée chaque mois sur le Bilhete Único normal. À partir de 65 ans, il existe le Bilhete Único spécial pour les personnes âgées.",
+      "2": "Étudiants : le Bilhete Único étudiant est demandé par l’école, qui envoie les données à la SPTrans.",
+      "3": "Les personnes en situation de handicap peuvent demander le Bilhete Único spécial. Consultez les conditions auprès de la SPTrans.",
+      "4": "Avantages pour les chômeurs et tarif social pour les personnes à faible revenu : nous n’avons pas confirmé les règles actuelles dans une source officielle. Renseignez-vous auprès de la SPTrans, du Metrô et de la CPTM.",
+      "title": "Gratuités et réductions",
+      "link": "Questions et réponses de la SPTrans"
+    },
+    "apps": {
+      "1": "Des applications de cartes gratuites, comme Google Maps et Moovit, montrent quel bus, métro ou train prendre.",
+      "2": "Pour utiliser moins de données, préparez votre itinéraire en Wi-Fi et faites une capture d’écran.",
+      "3": "Les sites de la SPTrans, du Metrô et de la CPTM montrent aussi les lignes et les plans.",
+      "title": "Applications d’itinéraire"
+    },
+    "src": {
+      "6064": "SPTrans : Gratuité de 60 à 64 ans",
+      "comum": "SPTrans : Bilhete Único normal",
+      "faq": "SPTrans : Questions et réponses sur le Bilhete Único",
+      "anon": "Mairie de São Paulo : Règles du Bilhete Único anonyme",
+      "tarifas": "SPTrans : Tarifs",
+      "sunday": "SPTrans : Domingão Tarifa Zero",
+      "sundayFaq": "SPTrans : Questions et réponses sur la Tarifa Zero",
+      "idoso": "SPTrans : Bilhete Único spécial pour les personnes âgées",
+      "estudante": "SPTrans : Bilhete Único étudiant",
+      "cptmIdoso": "CPTM : Accès gratuit pour les personnes âgées",
+      "metro": "Métro de São Paulo",
+      "cptm": "CPTM"
+    }
+  },
+  "life": {
+    "meta": {
+      "title": "Santé, logement et éducation | Bienvenue au Brésil",
+      "desc": "UBS et SUS, centres d’hébergement, inscription à l’école et cours de portugais gratuits pour les migrants et les réfugiés à São Paulo."
+    },
+    "title": "Santé, logement et éducation",
+    "lead": "La santé et l’école publique sont des droits de toutes les personnes, quelle que soit leur nationalité ou leur situation migratoire.",
+    "health": {
+      "1": "Le SUS est public et gratuit. Il soigne toute personne, quelle que soit sa nationalité ou sa situation migratoire.",
+      "2": "L’UBS (Unité de santé de base) est le premier endroit où aller : consultations, vaccins et orientation vers des spécialistes.",
+      "3": "Vous pouvez vous inscrire à l’UBS même avant de faire l’enregistrement à la Police fédérale.",
+      "4": "Pour trouver l’UBS de votre adresse, utilisez le Busca Saúde de la mairie.",
+      "5": "L’AMA/UBS Pari a des professionnels bilingues et des panneaux en espagnol, anglais, français, arabe et chinois.",
+      "title": "Santé : UBS et SUS",
+      "emergency": "Urgence : appelez le 192 (SAMU) ou allez aux urgences (pronto-socorro).",
+      "card": "Comment obtenir la carte SUS"
+    },
+    "housing": {
+      "title": "Hébergement et logement",
+      "shelter": {
+        "1": "La mairie a des centres d’hébergement, dont certains réservés aux immigrés.",
+        "2": "Pour demander une place, appelez le 156 ou allez au CREAS ou au CRAS de votre quartier.",
+        "3": "Le CRAI, le centre de la mairie pour les immigrés, peut aussi vous orienter.",
+        "4": "Les places dépendent des disponibilités.",
+        "title": "Si vous n’avez pas d’endroit où dormir"
+      },
+      "rent": {
+        "1": "Demandez un contrat écrit et un reçu pour chaque paiement.",
+        "2": "Ne payez rien avant d’avoir vu le logement.",
+        "3": "Si vous avez des questions sur le contrat, adressez-vous à la Défense publique (Defensoria Pública).",
+        "title": "Pour louer"
+      },
+      "link": "Hébergement pour les immigrés"
+    },
+    "school": {
+      "1": "Tout enfant et adolescent a le droit d’étudier à l’école publique, même sans documents et quelle que soit sa situation migratoire.",
+      "2": "L’école ne peut pas refuser l’inscription par manque de documents ou de traduction assermentée. Les documents peuvent être remis plus tard.",
+      "3": "Sans dossier scolaire, l’école fait une évaluation pour choisir la bonne classe pour l’élève.",
+      "4": "Allez à l’école la plus proche de chez vous. En cas de difficulté, adressez-vous à la Diretoria Regional de Educação (direction régionale de l’éducation) ou au Conselho Tutelar (conseil de protection de l’enfance).",
+      "title": "Inscription à l’école",
+      "link": "Inscription sans documents"
+    },
+    "pt": {
+      "1": "Pour les personnes à partir de 16 ans.",
+      "2": "Pas besoin de documents. La situation migratoire n’a pas d’importance.",
+      "3": "Inscriptions toute l’année, directement dans les écoles municipales qui participent au programme.",
+      "4": "Niveaux débutant, intermédiaire et avancé. Les élèves présents au moins à 75 % des cours reçoivent un certificat.",
+      "title": "Cours de portugais",
+      "what": "Portas Abertas est le cours de portugais gratuit de la mairie pour les immigrés.",
+      "link": "Portas Abertas : écoles et inscription"
+    },
+    "src": {
+      "saude": "Mairie de São Paulo : Soins de santé aux immigrés",
+      "pari": "Mairie de São Paulo : L’AMA/UBS Pari accueille des patients de 87 nationalités",
+      "acolhimento": "Mairie de São Paulo : Informations sur l’hébergement",
+      "centros": "Mairie de São Paulo : Centres d’hébergement (Centros de Acolhida)",
+      "cne": "Conseil national de l’éducation : Résolution CNE/CEB nº 1/2020",
+      "sme": "Secrétariat municipal de l’éducation : Inscription sans documents",
+      "portas": "Mairie de São Paulo : Portas Abertas",
+      "portasSme": "Secrétariat municipal de l’éducation : Inscriptions à Portas Abertas"
+    }
+  },
+  "converter": {
+    "meta": {
+      "title": "Convertisseur de monnaie | Bienvenue au Brésil",
+      "desc": "Convertissez des reais dans la monnaie de votre pays et voyez combien vous dépensez, avec le taux officiel de la Banque centrale du Brésil."
+    },
+    "title": "Convertisseur de monnaie",
+    "lead": "Voyez combien vaut un prix en reais dans la monnaie de votre pays. Utilisez-le pour comparer les prix et prévoir vos dépenses.",
+    "form": {
+      "title": "Convertir des montants"
+    },
+    "amount": "Montant",
+    "currency": "Votre monnaie",
+    "direction": "Sens",
+    "fromBrl": "Du real vers ma monnaie",
+    "toBrl": "De ma monnaie vers le real",
+    "result": "Résultat",
+    "rate": "{from} = {to}",
+    "date": "Taux de référence de la Banque centrale du Brésil du {date}.",
+    "error": "Impossible de charger les taux de change. Réessayez plus tard.",
+    "tips": {
+      "title": "Avant de changer ou d’envoyer de l’argent",
+      "1": "Le montant affiché est une référence, calculée avec le taux officiel de la Banque centrale du Brésil.",
+      "2": "Les bureaux de change, les banques et les applications de transfert d’argent prennent des frais. Le montant que vous recevez peut être plus bas.",
+      "3": "Comparez le montant final à plusieurs endroits avant de changer ou d’envoyer de l’argent.",
+      "4": "Certaines monnaies changent de valeur très vite. Vérifiez la date du taux."
+    },
+    "src": {
+      "bcb": "Banque centrale du Brésil : Convertisseur de monnaies",
+      "history": "Banque centrale du Brésil : Cours et bulletins",
+      "procon": "Procon-SP et Dieese : Enquête sur le panier de base, août 2026",
+      "wage": "Décret nº 12.797/2025 : salaire minimum de 2026",
+      "anp": "ANP : Synthèse hebdomadaire des prix des carburants, du 27/09 au 03/10/2026"
+    }
+  },
+  "prices": {
+    "title": "Combien coûtent les choses au Brésil",
+    "intro": "Des prix moyens pour vous donner une idée de la valeur de l’argent. Si quelqu’un demande beaucoup plus, méfiez-vous et comparez ailleurs.",
+    "refs": {
+      "title": "Valeurs de référence",
+      "wage": "Salaire minimum national (par mois)",
+      "basket": "Panier de base complet à São Paulo (39 produits d’alimentation, de ménage et d’hygiène)",
+      "gas": "Bouteille de gaz de cuisine (13 kg), ville de São Paulo",
+      "bus": "Ticket de bus municipal à São Paulo",
+      "metro": "Ticket de métro ou de train à São Paulo"
+    },
+    "col": {
+      "item": "Produit",
+      "brl": "En reais",
+      "conv": "Dans votre monnaie"
+    },
+    "market": {
+      "title": "Au supermarché",
+      "note": "Prix moyens dans la ville de São Paulo, relevés par le Procon-SP le 31 août 2026. Dans d’autres villes et magasins, les prix peuvent être différents."
+    },
+    "items": {
+      "rice": "Riz (paquet de 5 kg)",
+      "beans": "Haricots carioca (1 kg)",
+      "sugar": "Sucre raffiné (paquet de 5 kg)",
+      "coffee": "Café moulu (500 g)",
+      "oil": "Huile de soja (900 ml)",
+      "milk": "Lait UHT (1 litre)",
+      "eggs": "Œufs blancs (1 douzaine)",
+      "bread": "Petits pains (1 kg)",
+      "pasta": "Pâtes (500 g)",
+      "chicken": "Poulet entier (1 kg)",
+      "beef": "Bœuf désossé, deuxième catégorie (1 kg)",
+      "potato": "Pommes de terre (1 kg)",
+      "onion": "Oignons (1 kg)",
+      "detergent": "Liquide vaisselle (500 ml)",
+      "powder": "Lessive en poudre (1 kg)",
+      "paper": "Papier toilette (4 rouleaux)",
+      "toothpaste": "Dentifrice (90 g)",
+      "soap": "Savon (90 g)"
+    },
+    "free": {
+      "title": "Services gratuits",
+      "intro": "Personne ne peut faire payer ces services publics. Si on vous demande de l’argent, c’est une arnaque.",
+      "refuge": "Demande d’asile",
+      "cpf": "CPF fait à la Receita Federal (à la poste, dans les banques et les offices d’état civil, les frais officiels sont de R$ 7,00)",
+      "ctps": "Carte de travail numérique",
+      "sus": "Carte SUS et soins dans le SUS",
+      "cad": "Inscription au CadÚnico",
+      "school": "Inscription à l’école publique",
+      "portuguese": "Cours de portugais Portas Abertas",
+      "help": "Accueil au CRAI et à la Défense publique",
+      "crnm": "La carte d’enregistrement migratoire (CRNM) a une taxe officielle de R$ 204,77, payée seulement par bordereau du gouvernement (GRU). Les personnes qui ne peuvent pas payer peuvent demander une exonération."
+    },
+    "scam": {
+      "title": "Signes d’arnaque",
+      "1": "On vous demande de l’argent pour obtenir un emploi, une place en hébergement ou un document.",
+      "2": "On vous demande un dépôt ou un Pix avant que vous voyiez le logement à louer.",
+      "3": "On vous propose de changer de l’argent dans la rue à un taux beaucoup plus avantageux que celui de la banque.",
+      "4": "On veut garder votre passeport ou vos documents.",
+      "5": "On vous pousse à payer tout de suite, sans temps pour réfléchir.",
+      "report": "Où signaler",
+      "r1": "Problèmes d’achats, de prix et de services : Procon-SP.",
+      "r2": "Arnaque ou délit : appelez le 190 ou déposez plainte à la Delegacia Eletrônica (commissariat en ligne).",
+      "r3": "Travail forcé ou traite des personnes : appelez le 100.",
+      "procon": "Procon-SP",
+      "police": "Delegacia Eletrônica"
+    }
+  },
+  "help": {
+    "meta": {
+      "title": "Où trouver de l’aide | Bienvenue au Brésil",
+      "desc": "Numéros d’urgence et organisations qui aident les migrants et les réfugiés à São Paulo, avec adresse, téléphone et site web."
+    },
+    "title": "Où trouver de l’aide",
+    "lead": "Services publics et organisations qui aident les migrants et les réfugiés. L’accueil est gratuit.",
+    "phones": {
+      "100": "Droits humains et travail forcé",
+      "121": "CadÚnico et Bolsa Família",
+      "156": "Mairie de São Paulo",
+      "158": "Ministère du Travail",
+      "180": "Violences contre les femmes",
+      "190": "Police militaire",
+      "192": "SAMU : urgence médicale",
+      "193": "Pompiers",
+      "title": "Numéros utiles"
+    },
+    "public": {
+      "title": "Services publics"
+    },
+    "ngo": {
+      "title": "Organisations d’aide"
+    },
+    "hours": "Nous ne publions pas les horaires, car ils changent. Vérifiez avant d’y aller. Les informations marquées « à vérifier » n’ont pas encore été confirmées par une source officielle.",
+    "crai": {
+      "name": "CRAI Oriana Jara (mairie de São Paulo)",
+      "desc": "Centre de référence pour les immigrés, avec un accueil en plusieurs langues : régularisation migratoire, service social, orientation juridique et soutien psychologique. La Défense publique de l’Union y reçoit sur rendez-vous."
+    },
+    "cic": {
+      "name": "CIC do Imigrante (gouvernement de l’État de São Paulo)",
+      "desc": "Orientation juridique, soutien psychologique et social, cours et orientation vers l’emploi."
+    },
+    "dpe": {
+      "name": "Défense publique de l’État de São Paulo",
+      "desc": "Avocats publics et gratuits pour les personnes qui ne peuvent pas payer. Aide pour le logement, la famille, la santé et d’autres droits.",
+      "contact": "Adresse et téléphone"
+    },
+    "dpu": {
+      "name": "Défense publique de l’Union (DPU)",
+      "desc": "Défense publique fédérale. Aide pour les questions de migration, d’asile et de Police fédérale."
+    },
+    "acnur": {
+      "name": "HCR Brésil (Agence des Nations unies pour les réfugiés)",
+      "desc": "Informations pour les réfugiés et les demandeurs d’asile, en plusieurs langues, sur le site Help."
+    },
+    "ci": {
+      "name": "Centro do Imigrante (Associação AGIR)"
+    },
+    "cim": {
+      "name": "Centro de Integração do Migrante (CIM)"
+    },
+    "scal": {
+      "name": "Mission scalabrinienne"
+    },
+    "paz": {
+      "name": "Missão Paz"
+    },
+    "cami": {
+      "name": "CAMI (Centre d’appui et pastorale du migrant)"
+    },
+    "caritas": {
+      "name": "Cáritas Arquidiocesana de São Paulo",
+      "desc": "Accueille les réfugiés et les demandeurs d’asile, en partenariat avec le HCR.",
+      "phone": "Téléphone et WhatsApp"
+    },
+    "src": {
+      "158": "gov.br : Ligne 158 du ministère du Travail et de l’Emploi",
+      "crai": "Mairie de São Paulo : Accueil du CRAI Oriana Jara",
+      "cic": "Mairie de São Paulo : Nouvelle adresse du CIC do Imigrante",
+      "dpe": "Défense publique de l’État de São Paulo",
+      "dpu": "Défense publique de l’Union",
+      "acnur": "HCR Brésil",
+      "caritas": "Cáritas Arquidiocesana de São Paulo (site de l’organisation)",
+      "ci": "Centro do Imigrante (site de l’organisation)",
+      "camiSite": "CAMI (site de l’organisation)",
+      "cami": "Mairie de São Paulo : Liste des cours de portugais (2019), avec l’adresse du CAMI"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "À propos du projet | Bienvenue au Brésil",
+      "desc": "À propos du guide Bienvenue au Brésil : auteur, formation, faculté, objectif, sources et mentions légales."
+    },
+    "title": "À propos du projet",
+    "lead": "Bienvenue au Brésil est un projet d’extension universitaire.",
+    "who": {
+      "title": "Qui l’a fait",
+      "author": "Auteur",
+      "course": "Formation",
+      "courseName": "Analyse et développement de systèmes",
+      "college": "Faculté"
+    },
+    "goal": {
+      "title": "Objectif",
+      "text": "Aider les migrants et les réfugiés qui viennent d’arriver au Brésil, en réunissant en un seul endroit les informations essentielles : documents, travail, transports, santé, logement, éducation et où trouver de l’aide.",
+      "design": "Le site est léger et a été conçu pour le téléphone et une connexion internet limitée, avec de grands caractères et un langage simple."
+    },
+    "method": {
+      "title": "D’où viennent les informations",
+      "text": "Les informations ont été recherchées dans des sources officielles, comme gov.br, la Police fédérale, la Receita Federal, le ministère du Travail et de l’Emploi, le ministère de la Santé, le ministère de la Justice, la mairie de São Paulo, la SPTrans, le Metrô, la CPTM et le HCR. Chaque page indique ses sources et la date de consultation.",
+      "verify": "Quand nous n’avons pas pu confirmer une information dans une source officielle, elle est marquée « à vérifier »."
+    },
+    "privacy": {
+      "title": "Confidentialité",
+      "text": "Ce site n’utilise pas de cookies et ne collecte pas de données personnelles. La langue choisie est enregistrée seulement sur votre appareil."
+    },
+    "legal": {
+      "1": "Ce site n’est pas un service officiel. Il n’a aucun lien avec des organismes publics ni avec les organisations citées.",
+      "2": "Les informations servent d’orientation et ne remplacent pas l’accueil des organismes officiels ni les conseils d’un avocat ou d’un défenseur public.",
+      "3": "Les règles, les prix, les adresses et les horaires peuvent changer. Vérifiez toujours auprès des canaux officiels avant de vous déplacer ou de payer une taxe.",
+      "title": "Mentions légales"
+    },
+    "credits": {
+      "title": "Crédits des photos",
+      "text": "Les photos viennent de Wikimedia Commons et ont une licence libre. Elles ont été recadrées et réduites pour charger plus vite."
+    }
+  },
+  "notFound": {
+    "meta": {
+      "title": "Page introuvable | Bienvenue au Brésil",
+      "desc": "Cette page n’existe pas."
+    },
+    "title": "Page introuvable",
+    "text": "Cette page n’existe pas ou a changé d’adresse.",
+    "back": "Retour à l’accueil"
+  },
+  "photos": {
+    "inicio": {
+      "alt": "Vue de Rio de Janeiro avec le Christ Rédempteur à gauche et le Pain de Sucre au fond",
+      "caption": "Rio de Janeiro, avec le Christ Rédempteur et le Pain de Sucre."
+    },
+    "documentos": {
+      "alt": "Passeport brésilien à couverture bleue",
+      "caption": "Passeport brésilien."
+    },
+    "trabalho": {
+      "alt": "Étal de fruits colorés au Marché municipal de São Paulo",
+      "caption": "Étal de fruits au Marché municipal de São Paulo."
+    },
+    "transporte": {
+      "alt": "Train de la ligne 5-Lilas du métro arrêté à la station Campo Belo",
+      "caption": "Station Campo Belo, ligne 5-Lilas du métro de São Paulo."
+    },
+    "saude": {
+      "alt": "Plaque d’une Unité de santé de base",
+      "caption": "Plaque d’une Unité de santé de base (UBS) à Urupês, dans l’État de São Paulo."
+    },
+    "ajuda": {
+      "alt": "Immeubles du centre de São Paulo par un jour de ciel bleu",
+      "caption": "Centre de São Paulo, vu depuis la bibliothèque Mário de Andrade."
+    }
+  }
+}

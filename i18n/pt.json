@@ -1,0 +1,647 @@
+{
+  "site": {
+    "name": "Bem-vindo ao Brasil"
+  },
+  "nav": {
+    "home": "Início",
+    "docs": "Documentos",
+    "work": "Trabalho",
+    "transport": "Transporte",
+    "life": "Saúde, moradia e educação",
+    "converter": "Conversor",
+    "help": "Onde buscar ajuda",
+    "about": "Sobre o projeto"
+  },
+  "common": {
+    "skip": "Pular para o conteúdo",
+    "language": "Idioma",
+    "menu": "Menu",
+    "mainMenu": "Menu principal",
+    "photo": "Foto:",
+    "notice": "Informação de orientação. Confirme nos órgãos oficiais, pois regras, valores e horários podem mudar.",
+    "onThisPage": "Nesta página",
+    "address": "Endereço",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "site": "Site",
+    "confirm": "Horário: confirme antes de ir.",
+    "verify": "verificar",
+    "sources": "Fontes oficiais",
+    "consulted": "Consultado em 8 de outubro de 2026.",
+    "where": "Onde tirar",
+    "bring": "O que levar",
+    "who": "Quem precisa",
+    "how": "Como fazer",
+    "cost": "Quanto custa",
+    "free": "Grátis.",
+    "buscaSaude": "Busca Saúde: achar a UBS"
+  },
+  "footer": {
+    "translations": "As traduções para outros idiomas estão em revisão por falantes nativos.",
+    "updated": "Última atualização:",
+    "updatedDate": "8 de outubro de 2026",
+    "project": "Projeto de extensão universitária de Renan Matos Barbosa, FAM - Faculdade das Américas."
+  },
+  "photos": {
+    "ajuda": {
+      "caption": "Centro de São Paulo, visto da Biblioteca Mário de Andrade.",
+      "alt": "Prédios do centro de São Paulo em um dia de céu azul"
+    },
+    "documentos": {
+      "caption": "Passaporte brasileiro.",
+      "alt": "Passaporte brasileiro de capa azul"
+    },
+    "inicio": {
+      "caption": "Rio de Janeiro, com o Cristo Redentor e o Pão de Açúcar.",
+      "alt": "Vista do Rio de Janeiro com o Cristo Redentor, à esquerda, e o Pão de Açúcar ao fundo"
+    },
+    "saude": {
+      "caption": "Placa de uma Unidade Básica de Saúde (UBS) em Urupês, interior de São Paulo.",
+      "alt": "Placa de uma Unidade Básica de Saúde"
+    },
+    "trabalho": {
+      "caption": "Banca de frutas no Mercado Municipal de São Paulo.",
+      "alt": "Banca com frutas coloridas no Mercado Municipal de São Paulo"
+    },
+    "transporte": {
+      "caption": "Estação Campo Belo, Linha 5-Lilás do metrô de São Paulo.",
+      "alt": "Trem da Linha 5-Lilás do metrô parado na estação Campo Belo"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Bem-vindo ao Brasil | Guia para migrantes e refugiados",
+      "desc": "Guia com informações essenciais para migrantes e refugiados recém-chegados: documentos, trabalho, transporte, saúde, moradia, educação e onde buscar ajuda."
+    },
+    "kicker": "Guia para migrantes e refugiados",
+    "title": "Bem-vindo ao Brasil",
+    "lead": "Informações essenciais para quem acabou de chegar, reunidas em um só lugar e com links para os sites oficiais.",
+    "sectionsTitle": "Do que você precisa?",
+    "tiles": {
+      "docs": "CPF, RNM, refúgio, Carteira de Trabalho, CadÚnico e Cartão SUS",
+      "work": "Direitos, currículo, cursos e vagas",
+      "transport": "Bilhete Único, metrô, trem, ônibus e gratuidades",
+      "life": "UBS, abrigo, escola e aulas de português",
+      "converter": "Veja quanto um preço em reais vale na sua moeda",
+      "help": "Entidades de apoio e telefones de emergência",
+      "about": "Quem fez, objetivo e aviso legal"
+    }
+  },
+  "docs": {
+    "src": {
+      "rnm": "gov.br / Polícia Federal: Registrar-se como estrangeiro no Brasil",
+      "cpf": "gov.br: Inscrever no CPF",
+      "cpfForm": "Receita Federal: Inscrição CPF Estrangeiro",
+      "law": "Lei nº 13.445/2017 (Lei de Migração)",
+      "sisconare": "Ministério da Justiça: SisCONARE",
+      "refugeFaq": "Ministério da Justiça: Sou solicitante de refúgio",
+      "ctps": "gov.br: Obter a Carteira de Trabalho",
+      "cad": "gov.br: Inscrever-se no Cadastro Único",
+      "cadSp": "Prefeitura de São Paulo: Cadastro Único",
+      "sus": "Ministério da Saúde: Como e onde solicitar o CNS",
+      "susSp": "Prefeitura de São Paulo: Diretrizes da Atenção Básica (2022)",
+      "busca": "Prefeitura de São Paulo: Busca Saúde"
+    },
+    "meta": {
+      "title": "Documentos | Bem-vindo ao Brasil",
+      "desc": "Como tirar CPF, RNM, Carteira de Trabalho Digital, CadÚnico e Cartão SUS em São Paulo, e como pedir refúgio."
+    },
+    "title": "Documentos",
+    "lead": "Comece pelo CPF e pelo registro na Polícia Federal. Com eles, fica mais fácil tirar os outros documentos.",
+    "cpf": {
+      "title": "CPF",
+      "what": "O CPF é o seu número de cadastro na Receita Federal. Você precisa dele para trabalhar, abrir conta em banco e usar muitos serviços.",
+      "where": {
+        "1": "Preencha o formulário on-line da Receita Federal para estrangeiros. Você recebe um número de protocolo.",
+        "2": "Leve o protocolo e os documentos a uma unidade da Receita Federal. Lá o serviço é grátis.",
+        "3": "Você também pode ir a uma agência dos Correios, do Banco do Brasil, da Caixa ou a um cartório. Nesses lugares a taxa é de R$ 7,00."
+      },
+      "bring": {
+        "1": "Documento de identidade com foto, como passaporte ou CRNM.",
+        "2": "Certidão de nascimento ou de casamento, se o seu documento não mostrar local e data de nascimento e o nome dos pais.",
+        "3": "O número de protocolo, se você preencheu o formulário on-line."
+      },
+      "link": "Página oficial do CPF",
+      "form": "Formulário para estrangeiros"
+    },
+    "rnm": {
+      "title": "RNM e CRNM",
+      "what": "O RNM (Registro Nacional Migratório) é o seu número de registro na Polícia Federal. A CRNM é a carteira com esse número. Ela é o seu documento de identidade no Brasil.",
+      "who": {
+        "1": "Quem entrou com visto temporário: faça o registro em até 90 dias depois de chegar.",
+        "2": "Quem recebeu autorização de residência: faça o registro em até 30 dias depois da publicação no Diário Oficial da União.",
+        "3": "Refugiados, asilados e apátridas já reconhecidos."
+      },
+      "late": "Fora do prazo, pode haver multa.",
+      "how": {
+        "1": "Preencha o formulário on-line da Polícia Federal e pague a taxa (boleto GRU).",
+        "2": "Agende o atendimento pela internet.",
+        "3": "Vá à unidade da Polícia Federal da região onde você mora, no dia marcado.",
+        "4": "Retire a carteira na Polícia Federal. O prazo médio é de 30 dias úteis."
+      },
+      "bring": {
+        "1": "A lista de documentos muda conforme o seu caso. Confira na página oficial antes de ir.",
+        "2": "O comprovante de pagamento da taxa."
+      },
+      "cost": {
+        "1": "Taxa de emissão da carteira: R$ 204,77. O agendamento é grátis.",
+        "2": "A Lei de Migração prevê isenção de taxas para pessoas em situação de vulnerabilidade ou sem dinheiro para pagar. Peça orientação no CRAI ou na Defensoria Pública da União."
+      },
+      "link": "Página oficial do registro"
+    },
+    "refuge": {
+      "title": "Pedido de refúgio",
+      "what": "Se você saiu do seu país por perseguição ou por grave violação de direitos humanos, pode pedir refúgio no Brasil. O pedido é grátis.",
+      "how": {
+        "1": "Crie uma conta no SisCONARE, o sistema do Ministério da Justiça, com um e-mail seu. O formulário pode ser preenchido em português, espanhol, inglês ou francês.",
+        "2": "No final, você recebe um número de controle.",
+        "3": "Vá à Polícia Federal com esse número, uma foto 3x4 e os documentos que tiver. Cada pessoa da família precisa ir.",
+        "4": "A Polícia Federal entrega o Protocolo de Refúgio. Ele vale como seu documento no Brasil. Renove o protocolo todo ano enquanto o pedido estiver em análise.",
+        "5": "Entre no SisCONARE pelo menos uma vez por mês para ver avisos, como a data da sua entrevista."
+      },
+      "note": "Não ter documentos não impede o pedido. Com o protocolo, você pode pedir CPF e Carteira de Trabalho.",
+      "link": "Página oficial do SisCONARE"
+    },
+    "ctps": {
+      "title": "Carteira de Trabalho Digital",
+      "what": "É o registro dos seus empregos, no celular. O número da carteira é o seu CPF. Com a carteira assinada, você tem acesso aos direitos trabalhistas.",
+      "how": {
+        "1": "Tenha um CPF.",
+        "2": "Crie uma conta gov.br (nível bronze, prata ou ouro).",
+        "3": "Baixe o aplicativo Carteira de Trabalho Digital (Android ou iPhone) ou use o site do Ministério do Trabalho. A carteira sai na hora."
+      },
+      "help": "Dúvidas: ligue 158, a central do Ministério do Trabalho e Emprego.",
+      "link": "Página oficial da carteira",
+      "app": "Baixar o aplicativo"
+    },
+    "cad": {
+      "title": "CadÚnico",
+      "what": "O Cadastro Único é o registro do governo para famílias de baixa renda. Ele dá acesso a programas sociais, como o Bolsa Família e a Tarifa Social de Energia Elétrica.",
+      "who": {
+        "1": "Famílias com renda de até meio salário mínimo por pessoa.",
+        "2": "Na cidade de São Paulo, uma lei municipal garante a imigrantes o acesso aos serviços públicos, qualquer que seja a situação migratória."
+      },
+      "where": {
+        "1": "No CRAS (Centro de Referência de Assistência Social) perto da sua casa.",
+        "2": "Em São Paulo, agende antes pelo telefone 156 ou pelo site da Prefeitura.",
+        "3": "A entrevista dura cerca de 1 hora. É grátis."
+      },
+      "bring": {
+        "1": "Da pessoa responsável pela família: CPF, documento com foto e comprovante de endereço (ou uma declaração de residência).",
+        "2": "Das outras pessoas da família: um documento de cada uma."
+      },
+      "verify": "A lista oficial não fala de documentos estrangeiros. Confirme no CRAS ou pelo telefone 121 quais documentos são aceitos.",
+      "link": "Página oficial do CadÚnico",
+      "linkSp": "CadÚnico na Prefeitura de SP"
+    },
+    "sus": {
+      "title": "Cartão SUS",
+      "what": "É o cartão do Sistema Único de Saúde (SUS). O SUS é público e gratuito. Ele atende qualquer pessoa, de qualquer nacionalidade ou situação migratória.",
+      "where": {
+        "1": "Na UBS (Unidade Básica de Saúde) mais perto da sua casa.",
+        "2": "Para achar a sua UBS, use o Busca Saúde, da Prefeitura, e escolha “Moro neste endereço”.",
+        "3": "O CPF também é usado como número de identificação no SUS."
+      },
+      "bring": {
+        "1": "Documento com foto, como passaporte, CRNM ou Protocolo de Refúgio.",
+        "2": "CPF, se você tiver.",
+        "3": "Pelas regras da Prefeitura, a UBS não deve exigir comprovante de endereço para fazer o cadastro."
+      },
+      "verify": "Não encontramos uma lista oficial de documentos para estrangeiros. Confirme na UBS.",
+      "link": "Página oficial do Cartão SUS"
+    }
+  },
+  "work": {
+    "meta": {
+      "title": "Trabalho | Bem-vindo ao Brasil",
+      "desc": "Direitos trabalhistas de migrantes e refugiados, Carteira de Trabalho Digital, currículo, cursos e onde buscar vagas em São Paulo."
+    },
+    "title": "Trabalho",
+    "lead": "No Brasil, migrantes e refugiados têm os mesmos direitos trabalhistas que os brasileiros.",
+    "rights": {
+      "1": "Com carteira assinada, você tem direito a salário mínimo, férias pagas, 13º salário, FGTS e descanso semanal.",
+      "2": "O empregador paga os exames médicos de admissão.",
+      "3": "Ninguém pode ficar com os seus documentos.",
+      "4": "Ninguém pode obrigar você a trabalhar para pagar uma dívida.",
+      "5": "É proibido discriminar por nacionalidade ou situação migratória.",
+      "6": "Mesmo sem documentos em dia, quem trabalha tem direitos trabalhistas.",
+      "title": "Seus direitos",
+      "link": "Direitos de migrantes e refugiados"
+    },
+    "cv": {
+      "1": "Use uma página só, em português simples.",
+      "2": "Coloque nome, telefone, e-mail e o bairro onde você mora.",
+      "3": "Escreva os idiomas que você fala e o seu nível em cada um.",
+      "4": "Liste seus trabalhos, do mais recente para o mais antigo: função, empresa, país e período.",
+      "5": "Inclua estudos e cursos. Estudos feitos em outro país também contam.",
+      "6": "Não é preciso colocar foto, número de documentos, religião ou estado civil.",
+      "7": "Peça para alguém revisar. O Cate e as entidades da página “Onde buscar ajuda” podem orientar.",
+      "title": "Como fazer um currículo"
+    },
+    "courses": {
+      "1": "Português: o programa Portas Abertas, da Prefeitura, oferece aulas grátis para imigrantes.",
+      "2": "O Cate (Centro de Apoio ao Trabalho e Empreendedorismo), da Prefeitura, oferece vagas, orientação e cursos de capacitação. A unidade central tem atendimento para imigrantes, com atendentes bilíngues.",
+      "3": "Algumas entidades de apoio também oferecem cursos. Pergunte diretamente a elas.",
+      "title": "Cursos e capacitação",
+      "pt": "Aulas de português"
+    },
+    "jobs": {
+      "1": "Portal Emprega Brasil (Sine), do governo federal. Você entra com a conta gov.br. É grátis.",
+      "2": "Aplicativo Carteira de Trabalho Digital, na área “Vagas de emprego”.",
+      "3": "Cate, da Prefeitura de São Paulo. Às vezes há processos seletivos só para imigrantes e refugiados.",
+      "4": "CRAI e entidades de apoio, que divulgam vagas e orientam.",
+      "title": "Onde buscar vagas",
+      "warning": "Cuidado: desconfie de vagas que pedem dinheiro para contratar ou que querem ficar com os seus documentos.",
+      "sine": "Buscar emprego no Sine"
+    },
+    "report": {
+      "1": "Trabalho escravo ou tráfico de pessoas: ligue 100 ou use o Sistema Ipê, na internet. Você não precisa se identificar.",
+      "2": "Outras dúvidas sobre trabalho: ligue 158, a central do Ministério do Trabalho e Emprego.",
+      "title": "Como denunciar",
+      "ipe": "Sistema Ipê: denúncia"
+    },
+    "ctps": {
+      "text": "É grátis e fica no celular. Para tirar, você precisa de CPF e de uma conta gov.br.",
+      "jobs": "No aplicativo, a área “Vagas de emprego” mostra vagas do Sine de acordo com o seu perfil e o seu endereço.",
+      "link": "Veja como tirar a carteira"
+    },
+    "cate": "Portal do Cate",
+    "src": {
+      "proteja": "Ministério do Trabalho e Emprego: Proteção dos Trabalhadores Migrantes e Refugiados",
+      "faq": "Ministério do Trabalho e Emprego: Perguntas frequentes",
+      "sine": "gov.br: Buscar emprego no Sine",
+      "sineApp": "Ministério do Trabalho e Emprego: Vagas do Sine na Carteira de Trabalho Digital",
+      "cate": "Prefeitura de São Paulo: Imigrantes e refugiados encontram oportunidades no Cate",
+      "cateCourses": "Prefeitura de São Paulo: Vagas de emprego e cursos de capacitação para imigrantes"
+    }
+  },
+  "transport": {
+    "src": {
+      "6064": "SPTrans: Gratuidade de 60 a 64 anos",
+      "tarifas": "SPTrans: Tarifas",
+      "comum": "SPTrans: Bilhete Único Comum",
+      "faq": "SPTrans: Perguntas e respostas sobre o Bilhete Único",
+      "anon": "Prefeitura de São Paulo: Regras do Bilhete Único Anônimo",
+      "sunday": "SPTrans: Domingão Tarifa Zero",
+      "sundayFaq": "SPTrans: Perguntas e respostas sobre a Tarifa Zero",
+      "idoso": "SPTrans: Bilhete Único Especial da Pessoa Idosa",
+      "estudante": "SPTrans: Bilhete Único de Estudante",
+      "cptmIdoso": "CPTM: Acesso livre para idosos",
+      "metro": "Metrô de São Paulo",
+      "cptm": "CPTM"
+    },
+    "meta": {
+      "title": "Transporte em SP | Bem-vindo ao Brasil",
+      "desc": "Bilhete Único, metrô, trem, ônibus, gratuidades e aplicativos de rota na cidade de São Paulo."
+    },
+    "title": "Transporte em São Paulo",
+    "lead": "Ônibus, metrô e trem ligam a cidade. Com o Bilhete Único, você paga menos quando troca de condução.",
+    "card": {
+      "title": "Bilhete Único",
+      "what": "É o cartão para pagar ônibus municipais, metrô e trem em São Paulo.",
+      "how": {
+        "1": "Faça o cadastro no site de atendimento da SPTrans e envie uma foto.",
+        "2": "Depois da aprovação, retire o cartão em um posto de atendimento, com documento com foto. Você também pode pedir entrega em casa, pagando o envio.",
+        "3": "Coloque créditos nos pontos de recarga indicados pela SPTrans."
+      },
+      "one": "Cada pessoa pode ter só um Bilhete Único.",
+      "anon": "Também existe o Bilhete Único sem nome. Para comprar, é preciso documento com foto e CPF.",
+      "integration": {
+        "1": "até 4 ônibus diferentes, pagando uma só tarifa;",
+        "2": "metrô ou trem mais até 3 ônibus, pagando a tarifa de integração. A viagem de metrô ou trem precisa ser nas 2 primeiras horas.",
+        "title": "Integração: pague menos ao trocar de condução",
+        "intro": "Com créditos comuns, dentro de 3 horas:"
+      },
+      "price": "Os valores mudam. Confira a tabela atual de tarifas no site da SPTrans.",
+      "link": "Pedir o Bilhete Único",
+      "prices": "Tarifas atuais"
+    },
+    "rail": {
+      "1": "O metrô e os trens metropolitanos ligam várias regiões da cidade e da Grande São Paulo.",
+      "2": "Algumas linhas são operadas por empresas privadas, como a ViaQuatro e a ViaMobilidade.",
+      "3": "Você pode pagar com o Bilhete Único. O mapa das linhas fica nas estações e nos sites oficiais.",
+      "title": "Metrô e trem",
+      "metro": "Metrô",
+      "cptm": "CPTM (trens)",
+      "via": "ViaMobilidade"
+    },
+    "bus": {
+      "1": "Os ônibus municipais são gerenciados pela SPTrans. Para entrar, passe o Bilhete Único no validador.",
+      "2": "Ônibus que vão para outras cidades da região são intermunicipais (EMTU) e têm outras regras.",
+      "title": "Ônibus",
+      "sunday": {
+        "1": "Aos domingos, os ônibus municipais são grátis o dia todo. Também vale em 25 de dezembro, 1º de janeiro e 25 de janeiro.",
+        "2": "Não vale para metrô, trem nem ônibus intermunicipais.",
+        "3": "Mesmo grátis, passe o Bilhete Único no validador. Se não tiver cartão, peça ajuda ao motorista ou ao cobrador.",
+        "title": "Domingão Tarifa Zero",
+        "verify": "O programa começou em dezembro de 2023. Confirme no site da SPTrans se continua valendo."
+      },
+      "link": "SPTrans: linhas e itinerários"
+    },
+    "free": {
+      "1": "Pessoas com 60 anos ou mais não pagam ônibus municipais, metrô e trem. De 60 a 64 anos, a gratuidade é carregada todo mês no Bilhete Único comum. A partir de 65 anos, existe o Bilhete Único Especial da Pessoa Idosa.",
+      "2": "Estudantes: o Bilhete Único de Estudante é pedido pela escola, que envia os dados para a SPTrans.",
+      "3": "Pessoas com deficiência podem pedir o Bilhete Único Especial. Confira os requisitos na SPTrans.",
+      "4": "Benefícios para desempregados e tarifa social para baixa renda: não confirmamos as regras atuais em fonte oficial. Pergunte à SPTrans, ao Metrô e à CPTM.",
+      "title": "Gratuidades e descontos",
+      "link": "Perguntas e respostas da SPTrans"
+    },
+    "apps": {
+      "1": "Aplicativos de mapa gratuitos, como Google Maps e Moovit, mostram qual ônibus, metrô ou trem pegar.",
+      "2": "Para gastar menos internet, planeje a rota quando estiver no Wi-Fi e tire uma foto da tela.",
+      "3": "Os sites da SPTrans, do Metrô e da CPTM também mostram linhas e mapas.",
+      "title": "Aplicativos de rota"
+    }
+  },
+  "life": {
+    "meta": {
+      "title": "Saúde, moradia e educação | Bem-vindo ao Brasil",
+      "desc": "UBS e SUS, centros de acolhida, matrícula escolar e cursos de português grátis para migrantes e refugiados em São Paulo."
+    },
+    "title": "Saúde, moradia e educação",
+    "lead": "Saúde e escola pública são direitos de todas as pessoas, de qualquer nacionalidade e situação migratória.",
+    "health": {
+      "1": "O SUS é público e gratuito. Ele atende qualquer pessoa, de qualquer nacionalidade ou situação migratória.",
+      "2": "A UBS (Unidade Básica de Saúde) é o primeiro lugar para procurar: consultas, vacinas e encaminhamento para especialistas.",
+      "3": "Você pode se cadastrar na UBS mesmo antes de fazer o registro na Polícia Federal.",
+      "4": "Para achar a UBS do seu endereço, use o Busca Saúde, da Prefeitura.",
+      "5": "A AMA/UBS Pari tem profissionais bilíngues e placas em espanhol, inglês, francês, árabe e chinês.",
+      "title": "Saúde: UBS e SUS",
+      "emergency": "Emergência: ligue 192 (SAMU) ou vá a um pronto-socorro.",
+      "card": "Como tirar o Cartão SUS"
+    },
+    "housing": {
+      "title": "Abrigo e moradia",
+      "shelter": {
+        "1": "A Prefeitura tem centros de acolhida, alguns só para imigrantes.",
+        "2": "Para pedir vaga, ligue 156 ou procure o CREAS ou o CRAS da sua região.",
+        "3": "O CRAI, centro da Prefeitura para imigrantes, também orienta.",
+        "4": "As vagas dependem de disponibilidade.",
+        "title": "Se você não tem onde dormir"
+      },
+      "rent": {
+        "1": "Peça contrato por escrito e recibo de cada pagamento.",
+        "2": "Não pague nada antes de ver o imóvel.",
+        "3": "Se tiver dúvida sobre o contrato, procure a Defensoria Pública.",
+        "title": "Para alugar"
+      },
+      "link": "Acolhimento para imigrantes"
+    },
+    "school": {
+      "1": "Toda criança e adolescente tem direito a estudar na escola pública, mesmo sem documentos e qualquer que seja a situação migratória.",
+      "2": "A escola não pode recusar a matrícula por falta de documentos ou de tradução juramentada. Os documentos podem ser entregues depois.",
+      "3": "Sem histórico escolar, a escola faz uma avaliação para definir o ano certo para o estudante.",
+      "4": "Procure a escola mais perto da sua casa. Se tiver dificuldade, procure a Diretoria Regional de Educação ou o Conselho Tutelar.",
+      "title": "Matrícula escolar",
+      "link": "Matrícula sem documentos"
+    },
+    "pt": {
+      "1": "Para pessoas a partir de 16 anos.",
+      "2": "Não precisa de documentos. A situação migratória não importa.",
+      "3": "Matrículas o ano todo, direto nas escolas municipais que participam do programa.",
+      "4": "Níveis básico, intermediário e avançado. Quem tem pelo menos 75% de presença recebe certificado.",
+      "title": "Aulas de português",
+      "what": "O Portas Abertas é o curso de português grátis da Prefeitura para imigrantes.",
+      "link": "Portas Abertas: escolas e inscrição"
+    },
+    "src": {
+      "saude": "Prefeitura de São Paulo: Atendimentos de saúde a imigrantes",
+      "pari": "Prefeitura de São Paulo: AMA/UBS Pari atende pacientes de 87 nacionalidades",
+      "acolhimento": "Prefeitura de São Paulo: Informações sobre acolhimento",
+      "centros": "Prefeitura de São Paulo: Centros de Acolhida",
+      "cne": "Conselho Nacional de Educação: Resolução CNE/CEB nº 1/2020",
+      "sme": "Secretaria Municipal de Educação: Matrícula sem exigência de documentos",
+      "portas": "Prefeitura de São Paulo: Portas Abertas",
+      "portasSme": "Secretaria Municipal de Educação: Inscrições no Portas Abertas"
+    }
+  },
+  "converter": {
+    "meta": {
+      "title": "Conversor de moeda | Bem-vindo ao Brasil",
+      "desc": "Converta reais para a moeda do seu país e veja quanto você está gastando, com a cotação oficial do Banco Central do Brasil."
+    },
+    "title": "Conversor de moeda",
+    "lead": "Veja quanto um preço em reais vale na moeda do seu país. Use para comparar preços e planejar seus gastos.",
+    "form": {
+      "title": "Converter valores"
+    },
+    "amount": "Valor",
+    "currency": "Sua moeda",
+    "direction": "Direção",
+    "fromBrl": "De real para a minha moeda",
+    "toBrl": "Da minha moeda para real",
+    "result": "Resultado",
+    "tips": {
+      "1": "O valor mostrado é uma referência, calculado com a cotação oficial do Banco Central do Brasil.",
+      "2": "Casas de câmbio, bancos e aplicativos de envio de dinheiro cobram taxas. O valor que você recebe pode ser menor.",
+      "3": "Compare o valor final em mais de um lugar antes de trocar ou enviar dinheiro.",
+      "4": "Algumas moedas mudam de valor muito rápido. Confira a data da cotação.",
+      "title": "Antes de trocar ou enviar dinheiro"
+    },
+    "src": {
+      "bcb": "Banco Central do Brasil: Conversor de moedas",
+      "history": "Banco Central do Brasil: Cotações e boletins",
+      "procon": "Procon-SP e Dieese: Pesquisa da cesta básica, agosto de 2026",
+      "wage": "Decreto nº 12.797/2025: salário mínimo de 2026",
+      "anp": "ANP: Síntese semanal de preços dos combustíveis, 27/09 a 03/10/2026"
+    },
+    "rate": "{from} = {to}",
+    "date": "Cotação de referência do Banco Central do Brasil de {date}.",
+    "error": "Não foi possível carregar as cotações. Tente novamente mais tarde."
+  },
+  "prices": {
+    "title": "Quanto custam as coisas no Brasil",
+    "intro": "Preços médios para você ter noção de quanto vale o dinheiro. Se alguém cobrar muito mais do que isso, desconfie e compare em outro lugar.",
+    "refs": {
+      "title": "Valores de referência",
+      "wage": "Salário mínimo nacional (por mês)",
+      "basket": "Cesta básica completa em São Paulo (39 produtos de alimentação, limpeza e higiene)",
+      "gas": "Botijão de gás de cozinha (13 kg), capital paulista",
+      "bus": "Passagem de ônibus municipal em São Paulo",
+      "metro": "Passagem de metrô ou trem em São Paulo"
+    },
+    "col": {
+      "item": "Item",
+      "brl": "Em reais",
+      "conv": "Na sua moeda"
+    },
+    "market": {
+      "title": "No supermercado",
+      "note": "Preços médios na cidade de São Paulo, coletados pelo Procon-SP em 31 de agosto de 2026. Em outras cidades e lojas, os preços podem ser diferentes."
+    },
+    "items": {
+      "rice": "Arroz (pacote de 5 kg)",
+      "beans": "Feijão carioca (1 kg)",
+      "sugar": "Açúcar refinado (pacote de 5 kg)",
+      "coffee": "Café em pó (500 g)",
+      "oil": "Óleo de soja (900 ml)",
+      "milk": "Leite longa vida (1 litro)",
+      "eggs": "Ovos brancos (1 dúzia)",
+      "bread": "Pão francês (1 kg)",
+      "pasta": "Macarrão (500 g)",
+      "chicken": "Frango inteiro (1 kg)",
+      "beef": "Carne de segunda sem osso (1 kg)",
+      "potato": "Batata (1 kg)",
+      "onion": "Cebola (1 kg)",
+      "detergent": "Detergente (500 ml)",
+      "powder": "Sabão em pó (1 kg)",
+      "paper": "Papel higiênico (4 rolos)",
+      "toothpaste": "Creme dental (90 g)",
+      "soap": "Sabonete (90 g)"
+    },
+    "free": {
+      "title": "Serviços que são de graça",
+      "intro": "Ninguém pode cobrar por estes serviços públicos. Se pedirem dinheiro, é golpe.",
+      "refuge": "Pedido de refúgio",
+      "cpf": "CPF feito na Receita Federal (nos Correios, bancos e cartórios a taxa oficial é de R$ 7,00)",
+      "ctps": "Carteira de Trabalho Digital",
+      "sus": "Cartão SUS e atendimento no SUS",
+      "cad": "Cadastro no CadÚnico",
+      "school": "Matrícula na escola pública",
+      "portuguese": "Aulas de português do Portas Abertas",
+      "help": "Atendimento no CRAI e na Defensoria Pública",
+      "crnm": "A carteira de registro migratório (CRNM) tem taxa oficial de R$ 204,77, paga só por boleto do governo (GRU). Quem não pode pagar pode pedir isenção."
+    },
+    "scam": {
+      "1": "Pedem dinheiro para conseguir emprego, vaga em abrigo ou documento.",
+      "2": "Pedem depósito ou Pix antes de você ver o imóvel para alugar.",
+      "3": "Oferecem trocar dinheiro na rua com uma cotação muito melhor do que a do banco.",
+      "4": "Querem ficar com o seu passaporte ou com os seus documentos.",
+      "5": "Pressionam para você pagar na hora, sem tempo para pensar.",
+      "title": "Sinais de golpe",
+      "report": "Onde denunciar",
+      "r1": "Problemas com compras, preços e serviços: Procon-SP.",
+      "r2": "Golpe ou crime: ligue 190 ou registre um boletim de ocorrência na Delegacia Eletrônica.",
+      "r3": "Trabalho escravo ou tráfico de pessoas: ligue 100.",
+      "procon": "Procon-SP",
+      "police": "Delegacia Eletrônica"
+    }
+  },
+  "help": {
+    "meta": {
+      "title": "Onde buscar ajuda | Bem-vindo ao Brasil",
+      "desc": "Telefones de emergência e entidades que atendem migrantes e refugiados em São Paulo, com endereço, telefone e site."
+    },
+    "title": "Onde buscar ajuda",
+    "lead": "Serviços públicos e organizações que atendem migrantes e refugiados. O atendimento é gratuito.",
+    "phones": {
+      "100": "Direitos humanos e trabalho escravo",
+      "121": "CadÚnico e Bolsa Família",
+      "156": "Prefeitura de São Paulo",
+      "158": "Ministério do Trabalho",
+      "180": "Violência contra a mulher",
+      "190": "Polícia Militar",
+      "192": "SAMU: emergência médica",
+      "193": "Bombeiros",
+      "title": "Telefones úteis"
+    },
+    "public": {
+      "title": "Serviços públicos"
+    },
+    "ngo": {
+      "title": "Organizações de apoio"
+    },
+    "hours": "Não publicamos horários de atendimento, porque eles mudam. Confirme antes de ir. Dados marcados com “verificar” ainda não foram confirmados em fonte oficial.",
+    "crai": {
+      "name": "CRAI Oriana Jara (Prefeitura de São Paulo)",
+      "desc": "Centro de referência para imigrantes, com atendimento em vários idiomas: regularização migratória, serviço social, orientação jurídica e apoio psicológico. A Defensoria Pública da União atende lá com agendamento."
+    },
+    "cic": {
+      "name": "CIC do Imigrante (Governo do Estado de São Paulo)",
+      "desc": "Orientação jurídica, apoio psicológico e social, cursos e encaminhamento para emprego."
+    },
+    "dpe": {
+      "name": "Defensoria Pública do Estado de São Paulo",
+      "desc": "Advogados públicos e gratuitos para quem não pode pagar. Ajuda com moradia, família, saúde e outros direitos.",
+      "contact": "Endereço e telefone"
+    },
+    "dpu": {
+      "name": "Defensoria Pública da União (DPU)",
+      "desc": "Defensoria federal. Ajuda em temas de migração, refúgio e Polícia Federal."
+    },
+    "acnur": {
+      "name": "ACNUR Brasil (Agência da ONU para Refugiados)",
+      "desc": "Informações para refugiados e solicitantes de refúgio, em vários idiomas, no site Help."
+    },
+    "ci": {
+      "name": "Centro do Imigrante (Associação AGIR)"
+    },
+    "cim": {
+      "name": "Centro de Integração do Migrante (CIM)"
+    },
+    "scal": {
+      "name": "Missão Scalabriniana"
+    },
+    "paz": {
+      "name": "Missão Paz"
+    },
+    "cami": {
+      "name": "CAMI (Centro de Apoio e Pastoral do Migrante)"
+    },
+    "caritas": {
+      "name": "Cáritas Arquidiocesana de São Paulo",
+      "desc": "Atende refugiados e solicitantes de refúgio, em parceria com o ACNUR.",
+      "phone": "Telefone e WhatsApp"
+    },
+    "src": {
+      "158": "gov.br: Central 158 do Ministério do Trabalho e Emprego",
+      "crai": "Prefeitura de São Paulo: Atendimento CRAI Oriana Jara",
+      "cic": "Prefeitura de São Paulo: Novo endereço do CIC do Imigrante",
+      "dpe": "Defensoria Pública do Estado de São Paulo",
+      "dpu": "Defensoria Pública da União",
+      "acnur": "ACNUR Brasil",
+      "caritas": "Cáritas Arquidiocesana de São Paulo (site da entidade)",
+      "ci": "Centro do Imigrante (site da entidade)",
+      "camiSite": "CAMI (site da entidade)",
+      "cami": "Prefeitura de São Paulo: Mapeamento de cursos de português (2019), com endereço do CAMI"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Sobre o projeto | Bem-vindo ao Brasil",
+      "desc": "Sobre o guia Bem-vindo ao Brasil: autor, curso, faculdade, objetivo, fontes e aviso legal."
+    },
+    "title": "Sobre o projeto",
+    "lead": "Bem-vindo ao Brasil é um projeto de extensão universitária.",
+    "who": {
+      "title": "Quem fez",
+      "author": "Autor",
+      "course": "Curso",
+      "courseName": "Análise e Desenvolvimento de Sistemas",
+      "college": "Faculdade"
+    },
+    "goal": {
+      "title": "Objetivo",
+      "text": "Ajudar migrantes e refugiados que acabaram de chegar ao Brasil, reunindo em um só lugar as informações essenciais: documentos, trabalho, transporte, saúde, moradia, educação e onde buscar ajuda.",
+      "design": "O site é leve e foi feito para celular e internet limitada, com letras grandes e linguagem simples."
+    },
+    "method": {
+      "title": "De onde vêm as informações",
+      "text": "As informações foram pesquisadas em fontes oficiais, como gov.br, Polícia Federal, Receita Federal, Ministério do Trabalho e Emprego, Ministério da Saúde, Ministério da Justiça, Prefeitura de São Paulo, SPTrans, Metrô, CPTM e ACNUR. Cada página mostra as fontes e a data de consulta.",
+      "verify": "Quando não conseguimos confirmar um dado em fonte oficial, ele aparece marcado com “verificar”."
+    },
+    "credits": {
+      "title": "Créditos das fotos",
+      "text": "As fotos vêm do Wikimedia Commons e têm licença livre. Elas foram recortadas e reduzidas para carregar mais rápido."
+    },
+    "privacy": {
+      "title": "Privacidade",
+      "text": "Este site não usa cookies e não coleta dados pessoais. O idioma escolhido fica salvo apenas no seu aparelho."
+    },
+    "legal": {
+      "1": "Este site não é um serviço oficial. Ele não tem vínculo com órgãos públicos nem com as organizações citadas.",
+      "2": "As informações são de orientação e não substituem o atendimento dos órgãos oficiais nem a orientação de um advogado ou defensor público.",
+      "3": "Regras, valores, endereços e horários podem mudar. Confirme sempre nos canais oficiais antes de ir a um lugar ou pagar uma taxa.",
+      "title": "Aviso legal"
+    }
+  },
+  "notFound": {
+    "meta": {
+      "title": "Página não encontrada | Bem-vindo ao Brasil",
+      "desc": "Esta página não existe."
+    },
+    "title": "Página não encontrada",
+    "text": "Esta página não existe ou mudou de endereço.",
+    "back": "Voltar para o início"
+  }
+}

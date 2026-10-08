@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="transport.meta.title">Transporte em SP | Bem-vindo ao Brasil</title>
+  <meta name="description" content="Bilhete Único, metrô, trem, ônibus, gratuidades e aplicativos de rota na cidade de São Paulo." data-i18n-attr="content:transport.meta.desc">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1b5a36">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'%3E%3Cpath d='M14 2.4a3.2 3.2 0 0 1 4 0l11.6 7.2a3 3 0 0 1 0 4.8L18 21.6a3.2 3.2 0 0 1-4 0L2.4 14.4a3 3 0 0 1 0-4.8z' fill='%23f2c230'/%3E%3Ccircle cx='16' cy='12' r='5' fill='%231f3f8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo" data-i18n="common.skip">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 28" aria-hidden="true" focusable="false"><defs><filter id="mark-outline" x="-15%" y="-15%" width="130%" height="130%"><feMorphology in="SourceAlpha" operator="dilate" radius="0.6" result="grow"/><feFlood class="mark-ink"/><feComposite in2="grow" operator="in" result="ink"/><feMerge><feMergeNode in="ink"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#mark-outline)"><g class="mark-g"><path class="mark-a" fill-rule="evenodd" d="M17.6 3.3 Q20 1.8 22.4 3.3 L35.4 11.7 Q38.3 14 35.4 16.3 L22.4 24.7 Q20 26.2 17.6 24.7 L4.6 16.3 Q1.7 14 4.6 11.7 Z"/><path class="mark-b" fill-rule="evenodd" d="M14.40 14.00 C14.40 10.91 16.91 8.40 20.00 8.40 C23.09 8.40 25.60 10.91 25.60 14.00 C25.60 17.09 23.09 19.60 20.00 19.60 C16.91 19.60 14.40 17.09 14.40 14.00 Z"/></g></g></svg><span data-i18n="site.name">Bem-vindo ao Brasil</span></a>
+      <div class="header-tools">
+        <div class="lang-field">
+          <label class="visually-hidden" for="lang-select" data-i18n="common.language">Idioma</label>
+          <select id="lang-select" data-lang-select><option value="pt" lang="pt" dir="ltr" selected>Português</option><option value="es" lang="es" dir="ltr">Español</option><option value="en" lang="en" dir="ltr">English</option><option value="fr" lang="fr" dir="ltr">Français</option><option value="ar" lang="ar" dir="rtl">العربية</option><option value="ht" lang="ht" dir="ltr">Kreyòl ayisyen</option></select>
+        </div>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span data-i18n="common.menu">Menu</span></button>
+      </div>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Menu principal" data-i18n-attr="aria-label:common.mainMenu">
+      <div class="container">
+        <ul>
+          <li><a href="index.html"><span data-i18n="nav.home">Início</span></a></li>
+          <li><a href="documentos.html"><span data-i18n="nav.docs">Documentos</span></a></li>
+          <li><a href="trabalho.html"><span data-i18n="nav.work">Trabalho</span></a></li>
+          <li><a href="transporte.html" aria-current="page"><span data-i18n="nav.transport">Transporte</span></a></li>
+          <li><a href="saude-moradia.html"><span data-i18n="nav.life">Saúde, moradia e educação</span></a></li>
+          <li><a href="conversor.html"><span data-i18n="nav.converter">Conversor</span></a></li>
+          <li><a href="ajuda.html"><span data-i18n="nav.help">Onde buscar ajuda</span></a></li>
+          <li><a href="sobre.html"><span data-i18n="nav.about">Sobre o projeto</span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo" tabindex="-1">
+    <div class="container">
+      <h1 class="page-title"><span data-i18n="transport.title">Transporte em São Paulo</span></h1>
+      <p class="lead" data-i18n="transport.lead">Ônibus, metrô e trem ligam a cidade. Com o Bilhete Único, você paga menos quando troca de condução.</p>
+      <figure class="photo">
+        <img src="img/transporte-1200.webp" srcset="img/transporte-640.webp 640w, img/transporte-1200.webp 1200w, img/transporte-1800.webp 1800w" sizes="(min-width: 64em) min(68rem, 100vw), (min-width: 46rem) 42rem, 100vw" width="1200" height="675" fetchpriority="high" alt="Trem da Linha 5-Lilás do metrô parado na estação Campo Belo" data-i18n-attr="alt:photos.transporte.alt" decoding="async">
+        <figcaption><span data-i18n="photos.transporte.caption">Estação Campo Belo, Linha 5-Lilás do metrô de São Paulo.</span> <span class="credit"><span data-i18n="common.photo">Foto:</span> Geogast, <a href="https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_Campo_Belo_%E2%80%A2_Linha_5_Lil%C3%A1s_%E2%80%A2_Metro_de_S%C3%A3o_Paulo_%E2%80%A2_plataforma_com_trem.jpg">CC BY 4.0</a></span></figcaption>
+      </figure>
+      <div class="notice" role="note"><p data-i18n="common.notice">Informação de orientação. Confirme nos órgãos oficiais, pois regras, valores e horários podem mudar.</p></div>
+      <nav class="toc" aria-labelledby="tr-toc">
+        <h2 id="tr-toc" class="toc-title" data-i18n="common.onThisPage">Nesta página</h2>
+        <ul>
+          <li><a href="#bilhete" data-i18n="transport.card.title">Bilhete Único</a></li>
+          <li><a href="#metro" data-i18n="transport.rail.title">Metrô e trem</a></li>
+          <li><a href="#onibus" data-i18n="transport.bus.title">Ônibus</a></li>
+          <li><a href="#gratuidades" data-i18n="transport.free.title">Gratuidades e descontos</a></li>
+          <li><a href="#apps" data-i18n="transport.apps.title">Aplicativos de rota</a></li>
+        </ul>
+      </nav>
+
+      <section class="card" id="bilhete" aria-labelledby="bilhete-h">
+        <h2 id="bilhete-h"><span data-i18n="transport.card.title">Bilhete Único</span></h2>
+        <p data-i18n="transport.card.what">É o cartão para pagar ônibus municipais, metrô e trem em São Paulo.</p>
+        <h3 data-i18n="common.how">Como fazer</h3>
+        <ol class="steps">
+          <li data-i18n="transport.card.how.1">Faça o cadastro no site de atendimento da SPTrans e envie uma foto.</li>
+          <li data-i18n="transport.card.how.2">Depois da aprovação, retire o cartão em um posto de atendimento, com documento com foto. Você também pode pedir entrega em casa, pagando o envio.</li>
+          <li data-i18n="transport.card.how.3">Coloque créditos nos pontos de recarga indicados pela SPTrans.</li>
+        </ol>
+        <ul>
+          <li data-i18n="transport.card.one">Cada pessoa pode ter só um Bilhete Único.</li>
+          <li data-i18n="transport.card.anon">Também existe o Bilhete Único sem nome. Para comprar, é preciso documento com foto e CPF.</li>
+        </ul>
+        <h3 data-i18n="transport.card.integration.title">Integração: pague menos ao trocar de condução</h3>
+        <p data-i18n="transport.card.integration.intro">Com créditos comuns, dentro de 3 horas:</p>
+        <ul>
+          <li data-i18n="transport.card.integration.1">até 4 ônibus diferentes, pagando uma só tarifa;</li>
+          <li data-i18n="transport.card.integration.2">metrô ou trem mais até 3 ônibus, pagando a tarifa de integração. A viagem de metrô ou trem precisa ser nas 2 primeiras horas.</li>
+        </ul>
+        <h3 data-i18n="common.cost">Quanto custa</h3>
+        <p data-i18n="transport.card.price">Os valores mudam. Confira a tabela atual de tarifas no site da SPTrans.</p>
+        <p class="links">
+          <a class="btn" href="https://atendimento.sptrans.com.br/"><span data-i18n="transport.card.link">Pedir o Bilhete Único</span></a>
+          <a class="btn btn-secondary" href="https://www.sptrans.com.br/tarifas/"><span data-i18n="transport.card.prices">Tarifas atuais</span></a>
+        </p>
+      </section>
+
+      <section class="card" id="metro" aria-labelledby="metro-h">
+        <h2 id="metro-h"><span data-i18n="transport.rail.title">Metrô e trem</span></h2>
+        <ul>
+          <li data-i18n="transport.rail.1">O metrô e os trens metropolitanos ligam várias regiões da cidade e da Grande São Paulo.</li>
+          <li data-i18n="transport.rail.2">Algumas linhas são operadas por empresas privadas, como a ViaQuatro e a ViaMobilidade.</li>
+          <li data-i18n="transport.rail.3">Você pode pagar com o Bilhete Único. O mapa das linhas fica nas estações e nos sites oficiais.</li>
+        </ul>
+        <p class="links">
+          <a class="btn" href="https://www.metro.sp.gov.br/"><span data-i18n="transport.rail.metro">Metrô</span></a>
+          <a class="btn btn-secondary" href="https://www.cptm.sp.gov.br/"><span data-i18n="transport.rail.cptm">CPTM (trens)</span></a>
+          <a class="btn btn-secondary" href="https://www.viamobilidade.com.br/"><span data-i18n="transport.rail.via">ViaMobilidade</span></a>
+        </p>
+      </section>
+
+      <section class="card" id="onibus" aria-labelledby="onibus-h">
+        <h2 id="onibus-h"><span data-i18n="transport.bus.title">Ônibus</span></h2>
+        <ul>
+          <li data-i18n="transport.bus.1">Os ônibus municipais são gerenciados pela SPTrans. Para entrar, passe o Bilhete Único no validador.</li>
+          <li data-i18n="transport.bus.2">Ônibus que vão para outras cidades da região são intermunicipais (EMTU) e têm outras regras.</li>
+        </ul>
+        <h3 data-i18n="transport.bus.sunday.title">Domingão Tarifa Zero</h3>
+        <ul>
+          <li data-i18n="transport.bus.sunday.1">Aos domingos, os ônibus municipais são grátis o dia todo. Também vale em 25 de dezembro, 1º de janeiro e 25 de janeiro.</li>
+          <li data-i18n="transport.bus.sunday.2">Não vale para metrô, trem nem ônibus intermunicipais.</li>
+          <li data-i18n="transport.bus.sunday.3">Mesmo grátis, passe o Bilhete Único no validador. Se não tiver cartão, peça ajuda ao motorista ou ao cobrador.</li>
+        </ul>
+        <p class="note"><span data-i18n="transport.bus.sunday.verify">O programa começou em dezembro de 2023. Confirme no site da SPTrans se continua valendo.</span><span class="verify" data-i18n="common.verify">verificar</span></p>
+        <p class="links">
+          <a class="btn" href="https://www.sptrans.com.br/"><span data-i18n="transport.bus.link">SPTrans: linhas e itinerários</span></a>
+          <a class="btn btn-secondary" href="https://www.sptrans.com.br/domingao-tarifa-zero/"><span data-i18n="transport.bus.sunday.title">Domingão Tarifa Zero</span></a>
+        </p>
+      </section>
+
+      <section class="card" id="gratuidades" aria-labelledby="grat-h">
+        <h2 id="grat-h"><span data-i18n="transport.free.title">Gratuidades e descontos</span></h2>
+        <ul>
+          <li data-i18n="transport.free.1">Pessoas com 60 anos ou mais não pagam ônibus municipais, metrô e trem. De 60 a 64 anos, a gratuidade é carregada todo mês no Bilhete Único comum. A partir de 65 anos, existe o Bilhete Único Especial da Pessoa Idosa.</li>
+          <li data-i18n="transport.free.2">Estudantes: o Bilhete Único de Estudante é pedido pela escola, que envia os dados para a SPTrans.</li>
+        </ul>
+        <ul>
+          <li><span data-i18n="transport.free.3">Pessoas com deficiência podem pedir o Bilhete Único Especial. Confira os requisitos na SPTrans.</span><span class="verify" data-i18n="common.verify">verificar</span></li>
+          <li><span data-i18n="transport.free.4">Benefícios para desempregados e tarifa social para baixa renda: não confirmamos as regras atuais em fonte oficial. Pergunte à SPTrans, ao Metrô e à CPTM.</span><span class="verify" data-i18n="common.verify">verificar</span></li>
+        </ul>
+        <p class="links">
+          <a class="btn" href="https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-unico"><span data-i18n="transport.free.link">Perguntas e respostas da SPTrans</span></a>
+        </p>
+      </section>
+
+      <section class="card" id="apps" aria-labelledby="apps-h">
+        <h2 id="apps-h"><span data-i18n="transport.apps.title">Aplicativos de rota</span></h2>
+        <ul>
+          <li data-i18n="transport.apps.1">Aplicativos de mapa gratuitos, como Google Maps e Moovit, mostram qual ônibus, metrô ou trem pegar.</li>
+          <li data-i18n="transport.apps.2">Para gastar menos internet, planeje a rota quando estiver no Wi-Fi e tire uma foto da tela.</li>
+          <li data-i18n="transport.apps.3">Os sites da SPTrans, do Metrô e da CPTM também mostram linhas e mapas.</li>
+        </ul>
+      </section>
+
+      <section class="sources" aria-labelledby="src-h">
+        <h2 id="src-h" data-i18n="common.sources">Fontes oficiais</h2>
+        <p data-i18n="common.consulted">Consultado em 8 de outubro de 2026.</p>
+        <ul>
+          <li><a href="https://bilheteunico.sptrans.com.br/comum/" data-i18n="transport.src.comum">SPTrans: Bilhete Único Comum</a></li>
+          <li><a href="https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-unico" data-i18n="transport.src.faq">SPTrans: Perguntas e respostas sobre o Bilhete Único</a></li>
+          <li><a href="https://prefeitura.sp.gov.br/web/mobilidade/w/noticias/257997" data-i18n="transport.src.anon">Prefeitura de São Paulo: Regras do Bilhete Único Anônimo</a></li>
+          <li><a href="https://www.sptrans.com.br/tarifas/" data-i18n="transport.src.tarifas">SPTrans: Tarifas</a></li>
+          <li><a href="https://www.sptrans.com.br/domingao-tarifa-zero/" data-i18n="transport.src.sunday">SPTrans: Domingão Tarifa Zero</a></li>
+          <li><a href="https://www.sptrans.com.br/perguntas-e-respostas/?sobre=tarifa-zero" data-i18n="transport.src.sundayFaq">SPTrans: Perguntas e respostas sobre a Tarifa Zero</a></li>
+          <li><a href="https://www.sptrans.com.br/perguntas-e-respostas/?sobre=gratuidade-60-64" data-i18n="transport.src.6064">SPTrans: Gratuidade de 60 a 64 anos</a></li>
+          <li><a href="https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-pessoa-idosa" data-i18n="transport.src.idoso">SPTrans: Bilhete Único Especial da Pessoa Idosa</a></li>
+          <li><a href="https://www.sptrans.com.br/perguntas-e-respostas/?sobre=bilhete-estudante" data-i18n="transport.src.estudante">SPTrans: Bilhete Único de Estudante</a></li>
+          <li><a href="https://www.cptm.sp.gov.br/cptm/sua-viagem/bilhetes-e-cartoes/acesso-livre-idosos" data-i18n="transport.src.cptmIdoso">CPTM: Acesso livre para idosos</a></li>
+          <li><a href="https://www.metro.sp.gov.br/" data-i18n="transport.src.metro">Metrô de São Paulo</a></li>
+          <li><a href="https://www.cptm.sp.gov.br/" data-i18n="transport.src.cptm">CPTM</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footer.translations">As traduções para outros idiomas estão em revisão por falantes nativos.</p>
+      <p><span data-i18n="footer.updated">Última atualização:</span> <time datetime="2026-10-08" data-i18n="footer.updatedDate">8 de outubro de 2026</time></p>
+      <p data-i18n="footer.project">Projeto de extensão universitária de Renan Matos Barbosa, FAM - Faculdade das Américas.</p>
+      <ul class="footer-links">
+        <li><a href="sobre.html" data-i18n="nav.about">Sobre o projeto</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

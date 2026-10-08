@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="home.meta.title">Bem-vindo ao Brasil | Guia para migrantes e refugiados</title>
+  <meta name="description" content="Guia com informações essenciais para migrantes e refugiados recém-chegados: documentos, trabalho, transporte, saúde, moradia, educação e onde buscar ajuda." data-i18n-attr="content:home.meta.desc">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#1b5a36">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 24'%3E%3Cpath d='M14 2.4a3.2 3.2 0 0 1 4 0l11.6 7.2a3 3 0 0 1 0 4.8L18 21.6a3.2 3.2 0 0 1-4 0L2.4 14.4a3 3 0 0 1 0-4.8z' fill='%23f2c230'/%3E%3Ccircle cx='16' cy='12' r='5' fill='%231f3f8f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo" data-i18n="common.skip">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 28" aria-hidden="true" focusable="false"><defs><filter id="mark-outline" x="-15%" y="-15%" width="130%" height="130%"><feMorphology in="SourceAlpha" operator="dilate" radius="0.6" result="grow"/><feFlood class="mark-ink"/><feComposite in2="grow" operator="in" result="ink"/><feMerge><feMergeNode in="ink"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g filter="url(#mark-outline)"><g class="mark-g"><path class="mark-a" fill-rule="evenodd" d="M17.6 3.3 Q20 1.8 22.4 3.3 L35.4 11.7 Q38.3 14 35.4 16.3 L22.4 24.7 Q20 26.2 17.6 24.7 L4.6 16.3 Q1.7 14 4.6 11.7 Z"/><path class="mark-b" fill-rule="evenodd" d="M14.40 14.00 C14.40 10.91 16.91 8.40 20.00 8.40 C23.09 8.40 25.60 10.91 25.60 14.00 C25.60 17.09 23.09 19.60 20.00 19.60 C16.91 19.60 14.40 17.09 14.40 14.00 Z"/></g></g></svg><span data-i18n="site.name">Bem-vindo ao Brasil</span></a>
+      <div class="header-tools">
+        <div class="lang-field">
+          <label class="visually-hidden" for="lang-select" data-i18n="common.language">Idioma</label>
+          <select id="lang-select" data-lang-select><option value="pt" lang="pt" dir="ltr" selected>Português</option><option value="es" lang="es" dir="ltr">Español</option><option value="en" lang="en" dir="ltr">English</option><option value="fr" lang="fr" dir="ltr">Français</option><option value="ar" lang="ar" dir="rtl">العربية</option><option value="ht" lang="ht" dir="ltr">Kreyòl ayisyen</option></select>
+        </div>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span data-i18n="common.menu">Menu</span></button>
+      </div>
+    </div>
+    <nav id="site-nav" class="site-nav" aria-label="Menu principal" data-i18n-attr="aria-label:common.mainMenu">
+      <div class="container">
+        <ul>
+          <li><a href="index.html" aria-current="page"><span data-i18n="nav.home">Início</span></a></li>
+          <li><a href="documentos.html"><span data-i18n="nav.docs">Documentos</span></a></li>
+          <li><a href="trabalho.html"><span data-i18n="nav.work">Trabalho</span></a></li>
+          <li><a href="transporte.html"><span data-i18n="nav.transport">Transporte</span></a></li>
+          <li><a href="saude-moradia.html"><span data-i18n="nav.life">Saúde, moradia e educação</span></a></li>
+          <li><a href="conversor.html"><span data-i18n="nav.converter">Conversor</span></a></li>
+          <li><a href="ajuda.html"><span data-i18n="nav.help">Onde buscar ajuda</span></a></li>
+          <li><a href="sobre.html"><span data-i18n="nav.about">Sobre o projeto</span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="conteudo" tabindex="-1">
+    <div class="container">
+      <section class="hero" aria-labelledby="home-title">
+        <p class="kicker" data-i18n="home.kicker">Guia para migrantes e refugiados</p>
+        <h1 id="home-title" data-i18n="home.title">Bem-vindo ao Brasil</h1>
+        <p class="lead" data-i18n="home.lead">Informações essenciais para quem acabou de chegar, reunidas em um só lugar e com links para os sites oficiais.</p>
+      </section>
+      <figure class="photo">
+        <img src="img/inicio-1200.webp" srcset="img/inicio-640.webp 640w, img/inicio-1200.webp 1200w, img/inicio-1800.webp 1800w" sizes="(min-width: 64em) min(68rem, 100vw), (min-width: 46rem) 42rem, 100vw" width="1200" height="675" fetchpriority="high" alt="Vista do Rio de Janeiro com o Cristo Redentor, à esquerda, e o Pão de Açúcar ao fundo" data-i18n-attr="alt:photos.inicio.alt" decoding="async">
+        <figcaption><span data-i18n="photos.inicio.caption">Rio de Janeiro, com o Cristo Redentor e o Pão de Açúcar.</span> <span class="credit"><span data-i18n="common.photo">Foto:</span> Matthias Bethke, <a href="https://commons.wikimedia.org/wiki/File:20170825_Blick_auf_den_Corcovado_und_den_P%C3%A3o_de_A%C3%A7%C3%BAcar.jpg">CC BY-SA 4.0</a></span></figcaption>
+      </figure>
+      <div class="notice" role="note"><p data-i18n="common.notice">Informação de orientação. Confirme nos órgãos oficiais, pois regras, valores e horários podem mudar.</p></div>
+      <section aria-labelledby="home-sections">
+        <h2 id="home-sections" data-i18n="home.sectionsTitle">Do que você precisa?</h2>
+        <ul class="posts">
+          <li><a class="post" href="documentos.html"><span class="post-title" data-i18n="nav.docs">Documentos</span><span class="post-desc" data-i18n="home.tiles.docs">CPF, RNM, refúgio, Carteira de Trabalho, CadÚnico e Cartão SUS</span></a></li>
+          <li><a class="post" href="trabalho.html"><span class="post-title" data-i18n="nav.work">Trabalho</span><span class="post-desc" data-i18n="home.tiles.work">Direitos, currículo, cursos e vagas</span></a></li>
+          <li><a class="post" href="transporte.html"><span class="post-title" data-i18n="nav.transport">Transporte</span><span class="post-desc" data-i18n="home.tiles.transport">Bilhete Único, metrô, trem, ônibus e gratuidades</span></a></li>
+          <li><a class="post" href="saude-moradia.html"><span class="post-title" data-i18n="nav.life">Saúde, moradia e educação</span><span class="post-desc" data-i18n="home.tiles.life">UBS, abrigo, escola e aulas de português</span></a></li>
+          <li><a class="post" href="conversor.html"><span class="post-title" data-i18n="converter.title">Conversor de moeda</span><span class="post-desc" data-i18n="home.tiles.converter">Veja quanto um preço em reais vale na sua moeda</span></a></li>
+          <li><a class="post" href="ajuda.html"><span class="post-title" data-i18n="nav.help">Onde buscar ajuda</span><span class="post-desc" data-i18n="home.tiles.help">Entidades de apoio e telefones de emergência</span></a></li>
+          <li><a class="post" href="sobre.html"><span class="post-title" data-i18n="nav.about">Sobre o projeto</span><span class="post-desc" data-i18n="home.tiles.about">Quem fez, objetivo e aviso legal</span></a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footer.translations">As traduções para outros idiomas estão em revisão por falantes nativos.</p>
+      <p><span data-i18n="footer.updated">Última atualização:</span> <time datetime="2026-10-08" data-i18n="footer.updatedDate">8 de outubro de 2026</time></p>
+      <p data-i18n="footer.project">Projeto de extensão universitária de Renan Matos Barbosa, FAM - Faculdade das Américas.</p>
+      <ul class="footer-links">
+        <li><a href="sobre.html" data-i18n="nav.about">Sobre o projeto</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
